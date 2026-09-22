@@ -16,5 +16,10 @@ namespace Lanchonete_Other_Side
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
