@@ -21,5 +21,10 @@ namespace Lanchonete_Other_Side
         {
 
         }
+
+        private void MAIS1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
