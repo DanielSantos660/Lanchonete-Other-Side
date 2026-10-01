@@ -37,6 +37,16 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Pr7 = new System.Windows.Forms.Label();
+            this.Pr6 = new System.Windows.Forms.Label();
+            this.Pr5 = new System.Windows.Forms.Label();
+            this.Pr4 = new System.Windows.Forms.Label();
+            this.Pr3 = new System.Windows.Forms.Label();
+            this.Pr2 = new System.Windows.Forms.Label();
+            this.Pr1 = new System.Windows.Forms.Label();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -101,9 +111,6 @@
             this.QTP = new System.Windows.Forms.Label();
             this.MENOSP = new System.Windows.Forms.Button();
             this.MAISP = new System.Windows.Forms.Button();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.QTB = new System.Windows.Forms.Label();
@@ -113,24 +120,17 @@
             this.TitleB = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.lAc5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.QTS = new System.Windows.Forms.Label();
+            this.MENOSS = new System.Windows.Forms.Button();
+            this.MAISS = new System.Windows.Forms.Button();
+            this.DescS = new System.Windows.Forms.TextBox();
+            this.TitleS = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.Pr1 = new System.Windows.Forms.Label();
-            this.Pr2 = new System.Windows.Forms.Label();
-            this.Pr3 = new System.Windows.Forms.Label();
-            this.Pr4 = new System.Windows.Forms.Label();
-            this.Pr5 = new System.Windows.Forms.Label();
-            this.Pr6 = new System.Windows.Forms.Label();
-            this.Pr7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -156,12 +156,24 @@
             this.label1.Size = new System.Drawing.Size(80, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mesa";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
             this.comboBox1.Location = new System.Drawing.Point(132, 176);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(82, 39);
@@ -213,13 +225,14 @@
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(6, 9);
+            this.radioButton1.Location = new System.Drawing.Point(6, 11);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(106, 28);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Individual";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -229,7 +242,7 @@
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(131, 9);
+            this.radioButton2.Location = new System.Drawing.Point(131, 11);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(98, 28);
             this.radioButton2.TabIndex = 10;
@@ -258,6 +271,121 @@
             this.groupBox2.Size = new System.Drawing.Size(408, 247);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Visible = false;
+            // 
+            // Pr7
+            // 
+            this.Pr7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr7.Location = new System.Drawing.Point(318, 212);
+            this.Pr7.Name = "Pr7";
+            this.Pr7.Size = new System.Drawing.Size(84, 31);
+            this.Pr7.TabIndex = 111;
+            this.Pr7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Pr6
+            // 
+            this.Pr6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr6.Location = new System.Drawing.Point(318, 178);
+            this.Pr6.Name = "Pr6";
+            this.Pr6.Size = new System.Drawing.Size(84, 31);
+            this.Pr6.TabIndex = 110;
+            this.Pr6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Pr5
+            // 
+            this.Pr5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr5.Location = new System.Drawing.Point(318, 144);
+            this.Pr5.Name = "Pr5";
+            this.Pr5.Size = new System.Drawing.Size(84, 31);
+            this.Pr5.TabIndex = 109;
+            this.Pr5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Pr4
+            // 
+            this.Pr4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr4.Location = new System.Drawing.Point(318, 110);
+            this.Pr4.Name = "Pr4";
+            this.Pr4.Size = new System.Drawing.Size(84, 31);
+            this.Pr4.TabIndex = 108;
+            this.Pr4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Pr3
+            // 
+            this.Pr3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr3.Location = new System.Drawing.Point(318, 76);
+            this.Pr3.Name = "Pr3";
+            this.Pr3.Size = new System.Drawing.Size(84, 31);
+            this.Pr3.TabIndex = 107;
+            this.Pr3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Pr2
+            // 
+            this.Pr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr2.Location = new System.Drawing.Point(318, 42);
+            this.Pr2.Name = "Pr2";
+            this.Pr2.Size = new System.Drawing.Size(84, 31);
+            this.Pr2.TabIndex = 106;
+            this.Pr2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Pr1
+            // 
+            this.Pr1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pr1.Location = new System.Drawing.Point(318, 8);
+            this.Pr1.Name = "Pr1";
+            this.Pr1.Size = new System.Drawing.Size(84, 31);
+            this.Pr1.TabIndex = 105;
+            this.Pr1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.radioButton9.FlatAppearance.BorderSize = 2;
+            this.radioButton9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
+            this.radioButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.Location = new System.Drawing.Point(7, 213);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(184, 28);
+            this.radioButton9.TabIndex = 18;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "X - Alien (Vegano)";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButton9.Visible = false;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.radioButton8.FlatAppearance.BorderSize = 2;
+            this.radioButton8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
+            this.radioButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton8.Location = new System.Drawing.Point(6, 179);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(184, 28);
+            this.radioButton8.TabIndex = 17;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "X - Alien (Vegano)";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            this.radioButton8.Visible = false;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.radioButton7.FlatAppearance.BorderSize = 2;
+            this.radioButton7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
+            this.radioButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.Location = new System.Drawing.Point(6, 145);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(184, 28);
+            this.radioButton7.TabIndex = 16;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "X - Alien (Vegano)";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.Visible = false;
             // 
             // radioButton6
             // 
@@ -274,6 +402,7 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "X - Alien (Vegano)";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.Visible = false;
             // 
             // radioButton5
             // 
@@ -290,6 +419,7 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "X - Transmission ";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.Visible = false;
             // 
             // radioButton4
             // 
@@ -306,6 +436,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "X - Conected ";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.Visible = false;
             // 
             // radioButton3
             // 
@@ -322,6 +453,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "X - Búrguer básico";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.Visible = false;
             // 
             // pictureBox1
             // 
@@ -330,6 +462,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(204, 204);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // TitleP
             // 
@@ -338,6 +471,7 @@
             this.TitleP.Name = "TitleP";
             this.TitleP.Size = new System.Drawing.Size(198, 31);
             this.TitleP.TabIndex = 13;
+            this.TitleP.Visible = false;
             // 
             // DescP
             // 
@@ -350,6 +484,7 @@
             this.DescP.ReadOnly = true;
             this.DescP.Size = new System.Drawing.Size(197, 170);
             this.DescP.TabIndex = 14;
+            this.DescP.Visible = false;
             // 
             // label7
             // 
@@ -360,6 +495,7 @@
             this.label7.Size = new System.Drawing.Size(112, 31);
             this.label7.TabIndex = 15;
             this.label7.Text = "Bebidas";
+            this.label7.Visible = false;
             // 
             // label8
             // 
@@ -370,6 +506,7 @@
             this.label8.Size = new System.Drawing.Size(247, 31);
             this.label8.TabIndex = 16;
             this.label8.Text = "Acompanhamentos";
+            this.label8.Visible = false;
             // 
             // pictureBox4
             // 
@@ -378,6 +515,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(125, 125);
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
             // 
             // pictureBox5
             // 
@@ -386,6 +524,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(125, 125);
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Visible = false;
             // 
             // pictureBox6
             // 
@@ -394,6 +533,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(125, 125);
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Visible = false;
             // 
             // pictureBox7
             // 
@@ -402,6 +542,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(125, 125);
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Visible = false;
             // 
             // lAc1
             // 
@@ -411,6 +552,7 @@
             this.lAc1.Size = new System.Drawing.Size(125, 21);
             this.lAc1.TabIndex = 23;
             this.lAc1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc1.Visible = false;
             // 
             // lAc2
             // 
@@ -420,6 +562,7 @@
             this.lAc2.Size = new System.Drawing.Size(125, 21);
             this.lAc2.TabIndex = 24;
             this.lAc2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc2.Visible = false;
             // 
             // lAc3
             // 
@@ -429,6 +572,7 @@
             this.lAc3.Size = new System.Drawing.Size(125, 21);
             this.lAc3.TabIndex = 25;
             this.lAc3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc3.Visible = false;
             // 
             // lAc4
             // 
@@ -438,6 +582,7 @@
             this.lAc4.Size = new System.Drawing.Size(125, 21);
             this.lAc4.TabIndex = 26;
             this.lAc4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc4.Visible = false;
             // 
             // checkBox1
             // 
@@ -447,6 +592,7 @@
             this.checkBox1.TabIndex = 35;
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Visible = false;
             // 
             // checkBox2
             // 
@@ -456,6 +602,7 @@
             this.checkBox2.TabIndex = 36;
             this.checkBox2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Visible = false;
             // 
             // checkBox3
             // 
@@ -465,6 +612,7 @@
             this.checkBox3.TabIndex = 37;
             this.checkBox3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Visible = false;
             // 
             // checkBox4
             // 
@@ -474,6 +622,7 @@
             this.checkBox4.TabIndex = 38;
             this.checkBox4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.Visible = false;
             // 
             // label3
             // 
@@ -503,6 +652,7 @@
             this.lAc8.Size = new System.Drawing.Size(125, 21);
             this.lAc8.TabIndex = 46;
             this.lAc8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc8.Visible = false;
             // 
             // lAc7
             // 
@@ -512,6 +662,7 @@
             this.lAc7.Size = new System.Drawing.Size(125, 21);
             this.lAc7.TabIndex = 45;
             this.lAc7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc7.Visible = false;
             // 
             // lAc6
             // 
@@ -521,6 +672,7 @@
             this.lAc6.Size = new System.Drawing.Size(125, 21);
             this.lAc6.TabIndex = 44;
             this.lAc6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc6.Visible = false;
             // 
             // pictureBox2
             // 
@@ -529,6 +681,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(125, 125);
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // pictureBox3
             // 
@@ -537,6 +690,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(125, 125);
             this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
             // 
             // pictureBox8
             // 
@@ -545,6 +699,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(125, 125);
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
             // 
             // pictureBox9
             // 
@@ -553,6 +708,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(125, 125);
             this.pictureBox9.TabIndex = 39;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
             // 
             // pictureBox10
             // 
@@ -561,6 +717,7 @@
             this.pictureBox10.Size = new System.Drawing.Size(204, 204);
             this.pictureBox10.TabIndex = 51;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Visible = false;
             // 
             // DescAc
             // 
@@ -573,6 +730,7 @@
             this.DescAc.ReadOnly = true;
             this.DescAc.Size = new System.Drawing.Size(197, 170);
             this.DescAc.TabIndex = 53;
+            this.DescAc.Visible = false;
             // 
             // TitleAc
             // 
@@ -581,6 +739,7 @@
             this.TitleAc.Name = "TitleAc";
             this.TitleAc.Size = new System.Drawing.Size(198, 31);
             this.TitleAc.TabIndex = 52;
+            this.TitleAc.Visible = false;
             // 
             // MAIS2
             // 
@@ -592,6 +751,7 @@
             this.MAIS2.TabIndex = 54;
             this.MAIS2.Text = ">";
             this.MAIS2.UseVisualStyleBackColor = true;
+            this.MAIS2.Visible = false;
             // 
             // MENOS2
             // 
@@ -603,6 +763,7 @@
             this.MENOS2.TabIndex = 55;
             this.MENOS2.Text = "<";
             this.MENOS2.UseVisualStyleBackColor = true;
+            this.MENOS2.Visible = false;
             // 
             // QT2
             // 
@@ -612,6 +773,7 @@
             this.QT2.Size = new System.Drawing.Size(53, 21);
             this.QT2.TabIndex = 56;
             this.QT2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT2.Visible = false;
             // 
             // MENOS3
             // 
@@ -623,6 +785,7 @@
             this.MENOS3.TabIndex = 58;
             this.MENOS3.Text = "<";
             this.MENOS3.UseVisualStyleBackColor = true;
+            this.MENOS3.Visible = false;
             // 
             // MAIS3
             // 
@@ -634,6 +797,7 @@
             this.MAIS3.TabIndex = 57;
             this.MAIS3.Text = ">";
             this.MAIS3.UseVisualStyleBackColor = true;
+            this.MAIS3.Visible = false;
             // 
             // MENOS4
             // 
@@ -645,6 +809,7 @@
             this.MENOS4.TabIndex = 60;
             this.MENOS4.Text = "<";
             this.MENOS4.UseVisualStyleBackColor = true;
+            this.MENOS4.Visible = false;
             // 
             // MAIS4
             // 
@@ -656,6 +821,7 @@
             this.MAIS4.TabIndex = 59;
             this.MAIS4.Text = ">";
             this.MAIS4.UseVisualStyleBackColor = true;
+            this.MAIS4.Visible = false;
             // 
             // MENOS5
             // 
@@ -667,6 +833,7 @@
             this.MENOS5.TabIndex = 62;
             this.MENOS5.Text = "<";
             this.MENOS5.UseVisualStyleBackColor = true;
+            this.MENOS5.Visible = false;
             // 
             // MAIS5
             // 
@@ -678,6 +845,7 @@
             this.MAIS5.TabIndex = 61;
             this.MAIS5.Text = ">";
             this.MAIS5.UseVisualStyleBackColor = true;
+            this.MAIS5.Visible = false;
             // 
             // QT3
             // 
@@ -687,6 +855,7 @@
             this.QT3.Size = new System.Drawing.Size(53, 21);
             this.QT3.TabIndex = 63;
             this.QT3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT3.Visible = false;
             // 
             // QT4
             // 
@@ -696,6 +865,7 @@
             this.QT4.Size = new System.Drawing.Size(53, 21);
             this.QT4.TabIndex = 64;
             this.QT4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT4.Visible = false;
             // 
             // QT5
             // 
@@ -705,6 +875,7 @@
             this.QT5.Size = new System.Drawing.Size(53, 21);
             this.QT5.TabIndex = 65;
             this.QT5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT5.Visible = false;
             // 
             // QT9
             // 
@@ -714,6 +885,7 @@
             this.QT9.Size = new System.Drawing.Size(53, 21);
             this.QT9.TabIndex = 81;
             this.QT9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT9.Visible = false;
             // 
             // QT8
             // 
@@ -723,6 +895,7 @@
             this.QT8.Size = new System.Drawing.Size(53, 21);
             this.QT8.TabIndex = 80;
             this.QT8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT8.Visible = false;
             // 
             // QT7
             // 
@@ -732,6 +905,7 @@
             this.QT7.Size = new System.Drawing.Size(53, 21);
             this.QT7.TabIndex = 79;
             this.QT7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT7.Visible = false;
             // 
             // MENOS9
             // 
@@ -743,6 +917,7 @@
             this.MENOS9.TabIndex = 78;
             this.MENOS9.Text = "<";
             this.MENOS9.UseVisualStyleBackColor = true;
+            this.MENOS9.Visible = false;
             // 
             // MAIS9
             // 
@@ -754,6 +929,7 @@
             this.MAIS9.TabIndex = 77;
             this.MAIS9.Text = ">";
             this.MAIS9.UseVisualStyleBackColor = true;
+            this.MAIS9.Visible = false;
             // 
             // MENOS8
             // 
@@ -765,6 +941,7 @@
             this.MENOS8.TabIndex = 76;
             this.MENOS8.Text = "<";
             this.MENOS8.UseVisualStyleBackColor = true;
+            this.MENOS8.Visible = false;
             // 
             // MAIS8
             // 
@@ -776,6 +953,7 @@
             this.MAIS8.TabIndex = 75;
             this.MAIS8.Text = ">";
             this.MAIS8.UseVisualStyleBackColor = true;
+            this.MAIS8.Visible = false;
             // 
             // MENOS7
             // 
@@ -787,6 +965,7 @@
             this.MENOS7.TabIndex = 74;
             this.MENOS7.Text = "<";
             this.MENOS7.UseVisualStyleBackColor = true;
+            this.MENOS7.Visible = false;
             // 
             // MAIS7
             // 
@@ -798,6 +977,7 @@
             this.MAIS7.TabIndex = 73;
             this.MAIS7.Text = ">";
             this.MAIS7.UseVisualStyleBackColor = true;
+            this.MAIS7.Visible = false;
             // 
             // QT6
             // 
@@ -807,6 +987,7 @@
             this.QT6.Size = new System.Drawing.Size(53, 21);
             this.QT6.TabIndex = 72;
             this.QT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QT6.Visible = false;
             // 
             // MENOS6
             // 
@@ -818,6 +999,7 @@
             this.MENOS6.TabIndex = 71;
             this.MENOS6.Text = "<";
             this.MENOS6.UseVisualStyleBackColor = true;
+            this.MENOS6.Visible = false;
             // 
             // MAIS6
             // 
@@ -829,6 +1011,7 @@
             this.MAIS6.TabIndex = 70;
             this.MAIS6.Text = ">";
             this.MAIS6.UseVisualStyleBackColor = true;
+            this.MAIS6.Visible = false;
             // 
             // checkBox5
             // 
@@ -838,6 +1021,7 @@
             this.checkBox5.TabIndex = 69;
             this.checkBox5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.Visible = false;
             // 
             // checkBox6
             // 
@@ -847,6 +1031,7 @@
             this.checkBox6.TabIndex = 68;
             this.checkBox6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.Visible = false;
             // 
             // checkBox7
             // 
@@ -856,6 +1041,7 @@
             this.checkBox7.TabIndex = 67;
             this.checkBox7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.Visible = false;
             // 
             // checkBox8
             // 
@@ -865,6 +1051,7 @@
             this.checkBox8.TabIndex = 66;
             this.checkBox8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.Visible = false;
             // 
             // QTP
             // 
@@ -874,6 +1061,7 @@
             this.QTP.Size = new System.Drawing.Size(53, 35);
             this.QTP.TabIndex = 84;
             this.QTP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QTP.Visible = false;
             // 
             // MENOSP
             // 
@@ -885,6 +1073,7 @@
             this.MENOSP.TabIndex = 83;
             this.MENOSP.Text = "<";
             this.MENOSP.UseVisualStyleBackColor = true;
+            this.MENOSP.Visible = false;
             // 
             // MAISP
             // 
@@ -896,55 +1085,7 @@
             this.MAISP.TabIndex = 82;
             this.MAISP.Text = ">";
             this.MAISP.UseVisualStyleBackColor = true;
-            this.MAISP.Click += new System.EventHandler(this.MAIS1_Click);
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.radioButton7.FlatAppearance.BorderSize = 2;
-            this.radioButton7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(6, 145);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(184, 28);
-            this.radioButton7.TabIndex = 16;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "X - Alien (Vegano)";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.radioButton8.FlatAppearance.BorderSize = 2;
-            this.radioButton8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.Location = new System.Drawing.Point(6, 179);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(184, 28);
-            this.radioButton8.TabIndex = 17;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "X - Alien (Vegano)";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.radioButton9.FlatAppearance.BorderSize = 2;
-            this.radioButton9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.Location = new System.Drawing.Point(7, 213);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(184, 28);
-            this.radioButton9.TabIndex = 18;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "X - Alien (Vegano)";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.MAISP.Visible = false;
             // 
             // comboBox2
             // 
@@ -954,6 +1095,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(275, 39);
             this.comboBox2.TabIndex = 85;
+            this.comboBox2.Visible = false;
             // 
             // label12
             // 
@@ -964,6 +1106,7 @@
             this.label12.Size = new System.Drawing.Size(152, 31);
             this.label12.TabIndex = 86;
             this.label12.Text = "Sobremesa";
+            this.label12.Visible = false;
             // 
             // QTB
             // 
@@ -973,6 +1116,7 @@
             this.QTB.Size = new System.Drawing.Size(53, 35);
             this.QTB.TabIndex = 92;
             this.QTB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QTB.Visible = false;
             // 
             // MENOSB
             // 
@@ -984,6 +1128,7 @@
             this.MENOSB.TabIndex = 91;
             this.MENOSB.Text = "<";
             this.MENOSB.UseVisualStyleBackColor = true;
+            this.MENOSB.Visible = false;
             // 
             // MAISB
             // 
@@ -995,6 +1140,7 @@
             this.MAISB.TabIndex = 90;
             this.MAISB.Text = ">";
             this.MAISB.UseVisualStyleBackColor = true;
+            this.MAISB.Visible = false;
             // 
             // DescB
             // 
@@ -1007,6 +1153,7 @@
             this.DescB.ReadOnly = true;
             this.DescB.Size = new System.Drawing.Size(197, 170);
             this.DescB.TabIndex = 89;
+            this.DescB.Visible = false;
             // 
             // TitleB
             // 
@@ -1015,6 +1162,7 @@
             this.TitleB.Name = "TitleB";
             this.TitleB.Size = new System.Drawing.Size(198, 31);
             this.TitleB.TabIndex = 88;
+            this.TitleB.Visible = false;
             // 
             // pictureBox11
             // 
@@ -1023,6 +1171,7 @@
             this.pictureBox11.Size = new System.Drawing.Size(204, 204);
             this.pictureBox11.TabIndex = 87;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Visible = false;
             // 
             // lAc5
             // 
@@ -1032,57 +1181,63 @@
             this.lAc5.Size = new System.Drawing.Size(125, 21);
             this.lAc5.TabIndex = 93;
             this.lAc5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lAc5.Visible = false;
             // 
-            // label6
+            // QTS
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(203, 2421);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 35);
-            this.label6.TabIndex = 100;
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QTS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QTS.Location = new System.Drawing.Point(203, 2421);
+            this.QTS.Name = "QTS";
+            this.QTS.Size = new System.Drawing.Size(53, 35);
+            this.QTS.TabIndex = 100;
+            this.QTS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.QTS.Visible = false;
             // 
-            // button1
+            // MENOSS
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(147, 2421);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(35, 35);
-            this.button1.TabIndex = 99;
-            this.button1.Text = "<";
-            this.button1.UseVisualStyleBackColor = true;
+            this.MENOSS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MENOSS.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOSS.Location = new System.Drawing.Point(147, 2421);
+            this.MENOSS.Name = "MENOSS";
+            this.MENOSS.Size = new System.Drawing.Size(35, 35);
+            this.MENOSS.TabIndex = 99;
+            this.MENOSS.Text = "<";
+            this.MENOSS.UseVisualStyleBackColor = true;
+            this.MENOSS.Visible = false;
             // 
-            // button2
+            // MAISS
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(286, 2421);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 35);
-            this.button2.TabIndex = 98;
-            this.button2.Text = ">";
-            this.button2.UseVisualStyleBackColor = true;
+            this.MAISS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MAISS.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAISS.Location = new System.Drawing.Point(286, 2421);
+            this.MAISS.Name = "MAISS";
+            this.MAISS.Size = new System.Drawing.Size(35, 35);
+            this.MAISS.TabIndex = 98;
+            this.MAISS.Text = ">";
+            this.MAISS.UseVisualStyleBackColor = true;
+            this.MAISS.Visible = false;
             // 
-            // textBox2
+            // DescS
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(343, 2245);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(197, 170);
-            this.textBox2.TabIndex = 97;
+            this.DescS.BackColor = System.Drawing.SystemColors.Control;
+            this.DescS.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DescS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescS.Location = new System.Drawing.Point(343, 2245);
+            this.DescS.Multiline = true;
+            this.DescS.Name = "DescS";
+            this.DescS.ReadOnly = true;
+            this.DescS.Size = new System.Drawing.Size(197, 170);
+            this.DescS.TabIndex = 97;
+            this.DescS.Visible = false;
             // 
-            // label9
+            // TitleS
             // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(342, 2211);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(198, 31);
-            this.label9.TabIndex = 96;
+            this.TitleS.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleS.Location = new System.Drawing.Point(342, 2211);
+            this.TitleS.Name = "TitleS";
+            this.TitleS.Size = new System.Drawing.Size(198, 31);
+            this.TitleS.TabIndex = 96;
+            this.TitleS.Visible = false;
             // 
             // pictureBox12
             // 
@@ -1091,6 +1246,7 @@
             this.pictureBox12.Size = new System.Drawing.Size(204, 204);
             this.pictureBox12.TabIndex = 95;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Visible = false;
             // 
             // comboBox3
             // 
@@ -1100,6 +1256,7 @@
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(275, 39);
             this.comboBox3.TabIndex = 94;
+            this.comboBox3.Visible = false;
             // 
             // button3
             // 
@@ -1111,6 +1268,7 @@
             this.button3.TabIndex = 101;
             this.button3.Text = "Concluir";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Visible = false;
             // 
             // button4
             // 
@@ -1122,6 +1280,7 @@
             this.button4.TabIndex = 102;
             this.button4.Text = "sai";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Visible = false;
             // 
             // button5
             // 
@@ -1133,6 +1292,7 @@
             this.button5.TabIndex = 103;
             this.button5.Text = "sai";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Visible = false;
             // 
             // label10
             // 
@@ -1141,85 +1301,23 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(177, 20);
             this.label10.TabIndex = 104;
-            // 
-            // Pr1
-            // 
-            this.Pr1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr1.Location = new System.Drawing.Point(318, 8);
-            this.Pr1.Name = "Pr1";
-            this.Pr1.Size = new System.Drawing.Size(84, 31);
-            this.Pr1.TabIndex = 105;
-            this.Pr1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pr2
-            // 
-            this.Pr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr2.Location = new System.Drawing.Point(318, 42);
-            this.Pr2.Name = "Pr2";
-            this.Pr2.Size = new System.Drawing.Size(84, 31);
-            this.Pr2.TabIndex = 106;
-            this.Pr2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pr3
-            // 
-            this.Pr3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr3.Location = new System.Drawing.Point(318, 76);
-            this.Pr3.Name = "Pr3";
-            this.Pr3.Size = new System.Drawing.Size(84, 31);
-            this.Pr3.TabIndex = 107;
-            this.Pr3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pr4
-            // 
-            this.Pr4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr4.Location = new System.Drawing.Point(318, 110);
-            this.Pr4.Name = "Pr4";
-            this.Pr4.Size = new System.Drawing.Size(84, 31);
-            this.Pr4.TabIndex = 108;
-            this.Pr4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pr5
-            // 
-            this.Pr5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr5.Location = new System.Drawing.Point(318, 144);
-            this.Pr5.Name = "Pr5";
-            this.Pr5.Size = new System.Drawing.Size(84, 31);
-            this.Pr5.TabIndex = 109;
-            this.Pr5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pr6
-            // 
-            this.Pr6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr6.Location = new System.Drawing.Point(318, 178);
-            this.Pr6.Name = "Pr6";
-            this.Pr6.Size = new System.Drawing.Size(84, 31);
-            this.Pr6.TabIndex = 110;
-            this.Pr6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Pr7
-            // 
-            this.Pr7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr7.Location = new System.Drawing.Point(318, 212);
-            this.Pr7.Name = "Pr7";
-            this.Pr7.Size = new System.Drawing.Size(84, 31);
-            this.Pr7.TabIndex = 111;
-            this.Pr7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(689, 796);
+            this.ClientSize = new System.Drawing.Size(706, 796);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.QTS);
+            this.Controls.Add(this.MENOSS);
+            this.Controls.Add(this.MAISS);
+            this.Controls.Add(this.DescS);
+            this.Controls.Add(this.TitleS);
             this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.lAc5);
@@ -1408,11 +1506,11 @@
         private System.Windows.Forms.Label TitleB;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.Label lAc5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label QTS;
+        private System.Windows.Forms.Button MENOSS;
+        private System.Windows.Forms.Button MAISS;
+        private System.Windows.Forms.TextBox DescS;
+        private System.Windows.Forms.Label TitleS;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button button3;
