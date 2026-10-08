@@ -225,11 +225,10 @@
             this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton1.FlatAppearance.BorderSize = 2;
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1.Location = new System.Drawing.Point(6, 11);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(106, 28);
+            this.radioButton1.Size = new System.Drawing.Size(107, 28);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Individual";
@@ -242,11 +241,10 @@
             this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton2.FlatAppearance.BorderSize = 2;
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(131, 11);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(98, 28);
+            this.radioButton2.Size = new System.Drawing.Size(99, 28);
             this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Combos";
@@ -344,11 +342,10 @@
             this.radioButton9.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton9.FlatAppearance.BorderSize = 2;
             this.radioButton9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton9.Location = new System.Drawing.Point(7, 213);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(184, 28);
+            this.radioButton9.Size = new System.Drawing.Size(185, 28);
             this.radioButton9.TabIndex = 18;
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "X - Alien (Vegano)";
@@ -360,11 +357,10 @@
             this.radioButton8.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton8.FlatAppearance.BorderSize = 2;
             this.radioButton8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton8.Location = new System.Drawing.Point(6, 179);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(184, 28);
+            this.radioButton8.Size = new System.Drawing.Size(185, 28);
             this.radioButton8.TabIndex = 17;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "X - Alien (Vegano)";
@@ -376,11 +372,10 @@
             this.radioButton7.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton7.FlatAppearance.BorderSize = 2;
             this.radioButton7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton7.Location = new System.Drawing.Point(6, 145);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(184, 28);
+            this.radioButton7.Size = new System.Drawing.Size(185, 28);
             this.radioButton7.TabIndex = 16;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "X - Alien (Vegano)";
@@ -392,11 +387,10 @@
             this.radioButton6.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton6.FlatAppearance.BorderSize = 2;
             this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton6.Location = new System.Drawing.Point(6, 111);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(184, 28);
+            this.radioButton6.Size = new System.Drawing.Size(185, 28);
             this.radioButton6.TabIndex = 15;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "X - Alien (Vegano)";
@@ -408,11 +402,10 @@
             this.radioButton5.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton5.FlatAppearance.BorderSize = 2;
             this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.Location = new System.Drawing.Point(6, 77);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(174, 28);
+            this.radioButton5.Size = new System.Drawing.Size(175, 28);
             this.radioButton5.TabIndex = 14;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "X - Transmission ";
@@ -424,11 +417,10 @@
             this.radioButton4.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton4.FlatAppearance.BorderSize = 2;
             this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(6, 43);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(144, 28);
+            this.radioButton4.Size = new System.Drawing.Size(145, 28);
             this.radioButton4.TabIndex = 13;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "X - Conected ";
@@ -440,15 +432,16 @@
             this.radioButton3.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.radioButton3.FlatAppearance.BorderSize = 2;
             this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.Location = new System.Drawing.Point(6, 9);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(185, 28);
+            this.radioButton3.Size = new System.Drawing.Size(186, 28);
             this.radioButton3.TabIndex = 12;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "X - Búrguer básico";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.radioButton3.Click += new System.EventHandler(this.radioButton3_Click);
             // 
             // pictureBox1
             // 

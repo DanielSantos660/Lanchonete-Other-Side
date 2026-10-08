@@ -36,6 +36,20 @@ namespace Lanchonete_Other_Side
             }
         }
 
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            
+
+
+        }
+
+        private void radioButton3_Click(object sender, EventArgs e)
+        {
+           
+        
+            
+        }
+
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox6.Checked == true)
