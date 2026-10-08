@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -131,6 +132,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -351,7 +353,6 @@
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "X - Alien (Vegano)";
             this.radioButton9.UseVisualStyleBackColor = true;
-            this.radioButton9.Visible = false;
             // 
             // radioButton8
             // 
@@ -368,7 +369,6 @@
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "X - Alien (Vegano)";
             this.radioButton8.UseVisualStyleBackColor = true;
-            this.radioButton8.Visible = false;
             // 
             // radioButton7
             // 
@@ -385,7 +385,6 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "X - Alien (Vegano)";
             this.radioButton7.UseVisualStyleBackColor = true;
-            this.radioButton7.Visible = false;
             // 
             // radioButton6
             // 
@@ -402,7 +401,6 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "X - Alien (Vegano)";
             this.radioButton6.UseVisualStyleBackColor = true;
-            this.radioButton6.Visible = false;
             // 
             // radioButton5
             // 
@@ -419,7 +417,6 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "X - Transmission ";
             this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.Visible = false;
             // 
             // radioButton4
             // 
@@ -436,7 +433,6 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "X - Conected ";
             this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.Visible = false;
             // 
             // radioButton3
             // 
@@ -453,7 +449,6 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "X - Búrguer básico";
             this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.Visible = false;
             // 
             // pictureBox1
             // 
@@ -462,16 +457,15 @@
             this.pictureBox1.Size = new System.Drawing.Size(204, 204);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Visible = false;
             // 
             // TitleP
             // 
-            this.TitleP.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleP.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleP.Location = new System.Drawing.Point(342, 623);
             this.TitleP.Name = "TitleP";
             this.TitleP.Size = new System.Drawing.Size(198, 31);
             this.TitleP.TabIndex = 13;
-            this.TitleP.Visible = false;
+            this.TitleP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // DescP
             // 
@@ -484,7 +478,6 @@
             this.DescP.ReadOnly = true;
             this.DescP.Size = new System.Drawing.Size(197, 170);
             this.DescP.TabIndex = 14;
-            this.DescP.Visible = false;
             // 
             // label7
             // 
@@ -515,7 +508,6 @@
             this.pictureBox4.Size = new System.Drawing.Size(125, 125);
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Visible = false;
             // 
             // pictureBox5
             // 
@@ -524,7 +516,6 @@
             this.pictureBox5.Size = new System.Drawing.Size(125, 125);
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Visible = false;
             // 
             // pictureBox6
             // 
@@ -533,7 +524,6 @@
             this.pictureBox6.Size = new System.Drawing.Size(125, 125);
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Visible = false;
             // 
             // pictureBox7
             // 
@@ -542,7 +532,6 @@
             this.pictureBox7.Size = new System.Drawing.Size(125, 125);
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Visible = false;
             // 
             // lAc1
             // 
@@ -593,6 +582,7 @@
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.Visible = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -603,6 +593,7 @@
             this.checkBox2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.Visible = false;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -613,6 +604,7 @@
             this.checkBox3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.Visible = false;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -623,6 +615,7 @@
             this.checkBox4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.Visible = false;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // label3
             // 
@@ -681,7 +674,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(125, 125);
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
             // 
             // pictureBox3
             // 
@@ -690,7 +682,6 @@
             this.pictureBox3.Size = new System.Drawing.Size(125, 125);
             this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Visible = false;
             // 
             // pictureBox8
             // 
@@ -699,7 +690,6 @@
             this.pictureBox8.Size = new System.Drawing.Size(125, 125);
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
-            this.pictureBox8.Visible = false;
             // 
             // pictureBox9
             // 
@@ -708,7 +698,6 @@
             this.pictureBox9.Size = new System.Drawing.Size(125, 125);
             this.pictureBox9.TabIndex = 39;
             this.pictureBox9.TabStop = false;
-            this.pictureBox9.Visible = false;
             // 
             // pictureBox10
             // 
@@ -717,7 +706,6 @@
             this.pictureBox10.Size = new System.Drawing.Size(204, 204);
             this.pictureBox10.TabIndex = 51;
             this.pictureBox10.TabStop = false;
-            this.pictureBox10.Visible = false;
             // 
             // DescAc
             // 
@@ -730,16 +718,15 @@
             this.DescAc.ReadOnly = true;
             this.DescAc.Size = new System.Drawing.Size(197, 170);
             this.DescAc.TabIndex = 53;
-            this.DescAc.Visible = false;
             // 
             // TitleAc
             // 
-            this.TitleAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleAc.Location = new System.Drawing.Point(342, 1349);
             this.TitleAc.Name = "TitleAc";
             this.TitleAc.Size = new System.Drawing.Size(198, 31);
             this.TitleAc.TabIndex = 52;
-            this.TitleAc.Visible = false;
+            this.TitleAc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MAIS2
             // 
@@ -751,7 +738,6 @@
             this.MAIS2.TabIndex = 54;
             this.MAIS2.Text = ">";
             this.MAIS2.UseVisualStyleBackColor = true;
-            this.MAIS2.Visible = false;
             // 
             // MENOS2
             // 
@@ -763,7 +749,6 @@
             this.MENOS2.TabIndex = 55;
             this.MENOS2.Text = "<";
             this.MENOS2.UseVisualStyleBackColor = true;
-            this.MENOS2.Visible = false;
             // 
             // QT2
             // 
@@ -773,7 +758,6 @@
             this.QT2.Size = new System.Drawing.Size(53, 21);
             this.QT2.TabIndex = 56;
             this.QT2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT2.Visible = false;
             // 
             // MENOS3
             // 
@@ -785,7 +769,6 @@
             this.MENOS3.TabIndex = 58;
             this.MENOS3.Text = "<";
             this.MENOS3.UseVisualStyleBackColor = true;
-            this.MENOS3.Visible = false;
             // 
             // MAIS3
             // 
@@ -797,7 +780,6 @@
             this.MAIS3.TabIndex = 57;
             this.MAIS3.Text = ">";
             this.MAIS3.UseVisualStyleBackColor = true;
-            this.MAIS3.Visible = false;
             // 
             // MENOS4
             // 
@@ -809,7 +791,6 @@
             this.MENOS4.TabIndex = 60;
             this.MENOS4.Text = "<";
             this.MENOS4.UseVisualStyleBackColor = true;
-            this.MENOS4.Visible = false;
             // 
             // MAIS4
             // 
@@ -821,7 +802,6 @@
             this.MAIS4.TabIndex = 59;
             this.MAIS4.Text = ">";
             this.MAIS4.UseVisualStyleBackColor = true;
-            this.MAIS4.Visible = false;
             // 
             // MENOS5
             // 
@@ -833,7 +813,6 @@
             this.MENOS5.TabIndex = 62;
             this.MENOS5.Text = "<";
             this.MENOS5.UseVisualStyleBackColor = true;
-            this.MENOS5.Visible = false;
             // 
             // MAIS5
             // 
@@ -845,7 +824,6 @@
             this.MAIS5.TabIndex = 61;
             this.MAIS5.Text = ">";
             this.MAIS5.UseVisualStyleBackColor = true;
-            this.MAIS5.Visible = false;
             // 
             // QT3
             // 
@@ -855,7 +833,6 @@
             this.QT3.Size = new System.Drawing.Size(53, 21);
             this.QT3.TabIndex = 63;
             this.QT3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT3.Visible = false;
             // 
             // QT4
             // 
@@ -865,7 +842,6 @@
             this.QT4.Size = new System.Drawing.Size(53, 21);
             this.QT4.TabIndex = 64;
             this.QT4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT4.Visible = false;
             // 
             // QT5
             // 
@@ -875,7 +851,6 @@
             this.QT5.Size = new System.Drawing.Size(53, 21);
             this.QT5.TabIndex = 65;
             this.QT5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT5.Visible = false;
             // 
             // QT9
             // 
@@ -885,7 +860,6 @@
             this.QT9.Size = new System.Drawing.Size(53, 21);
             this.QT9.TabIndex = 81;
             this.QT9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT9.Visible = false;
             // 
             // QT8
             // 
@@ -895,7 +869,6 @@
             this.QT8.Size = new System.Drawing.Size(53, 21);
             this.QT8.TabIndex = 80;
             this.QT8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT8.Visible = false;
             // 
             // QT7
             // 
@@ -905,7 +878,6 @@
             this.QT7.Size = new System.Drawing.Size(53, 21);
             this.QT7.TabIndex = 79;
             this.QT7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT7.Visible = false;
             // 
             // MENOS9
             // 
@@ -917,7 +889,6 @@
             this.MENOS9.TabIndex = 78;
             this.MENOS9.Text = "<";
             this.MENOS9.UseVisualStyleBackColor = true;
-            this.MENOS9.Visible = false;
             // 
             // MAIS9
             // 
@@ -929,7 +900,6 @@
             this.MAIS9.TabIndex = 77;
             this.MAIS9.Text = ">";
             this.MAIS9.UseVisualStyleBackColor = true;
-            this.MAIS9.Visible = false;
             // 
             // MENOS8
             // 
@@ -941,7 +911,6 @@
             this.MENOS8.TabIndex = 76;
             this.MENOS8.Text = "<";
             this.MENOS8.UseVisualStyleBackColor = true;
-            this.MENOS8.Visible = false;
             // 
             // MAIS8
             // 
@@ -953,7 +922,6 @@
             this.MAIS8.TabIndex = 75;
             this.MAIS8.Text = ">";
             this.MAIS8.UseVisualStyleBackColor = true;
-            this.MAIS8.Visible = false;
             // 
             // MENOS7
             // 
@@ -965,7 +933,6 @@
             this.MENOS7.TabIndex = 74;
             this.MENOS7.Text = "<";
             this.MENOS7.UseVisualStyleBackColor = true;
-            this.MENOS7.Visible = false;
             // 
             // MAIS7
             // 
@@ -977,7 +944,6 @@
             this.MAIS7.TabIndex = 73;
             this.MAIS7.Text = ">";
             this.MAIS7.UseVisualStyleBackColor = true;
-            this.MAIS7.Visible = false;
             // 
             // QT6
             // 
@@ -987,7 +953,6 @@
             this.QT6.Size = new System.Drawing.Size(53, 21);
             this.QT6.TabIndex = 72;
             this.QT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QT6.Visible = false;
             // 
             // MENOS6
             // 
@@ -999,7 +964,6 @@
             this.MENOS6.TabIndex = 71;
             this.MENOS6.Text = "<";
             this.MENOS6.UseVisualStyleBackColor = true;
-            this.MENOS6.Visible = false;
             // 
             // MAIS6
             // 
@@ -1011,7 +975,6 @@
             this.MAIS6.TabIndex = 70;
             this.MAIS6.Text = ">";
             this.MAIS6.UseVisualStyleBackColor = true;
-            this.MAIS6.Visible = false;
             // 
             // checkBox5
             // 
@@ -1022,6 +985,7 @@
             this.checkBox5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox5.UseVisualStyleBackColor = true;
             this.checkBox5.Visible = false;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // checkBox6
             // 
@@ -1032,6 +996,7 @@
             this.checkBox6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox6.UseVisualStyleBackColor = true;
             this.checkBox6.Visible = false;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // checkBox7
             // 
@@ -1042,6 +1007,7 @@
             this.checkBox7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox7.UseVisualStyleBackColor = true;
             this.checkBox7.Visible = false;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // checkBox8
             // 
@@ -1052,6 +1018,7 @@
             this.checkBox8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox8.UseVisualStyleBackColor = true;
             this.checkBox8.Visible = false;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // QTP
             // 
@@ -1061,7 +1028,6 @@
             this.QTP.Size = new System.Drawing.Size(53, 35);
             this.QTP.TabIndex = 84;
             this.QTP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QTP.Visible = false;
             // 
             // MENOSP
             // 
@@ -1073,7 +1039,6 @@
             this.MENOSP.TabIndex = 83;
             this.MENOSP.Text = "<";
             this.MENOSP.UseVisualStyleBackColor = true;
-            this.MENOSP.Visible = false;
             // 
             // MAISP
             // 
@@ -1085,7 +1050,6 @@
             this.MAISP.TabIndex = 82;
             this.MAISP.Text = ">";
             this.MAISP.UseVisualStyleBackColor = true;
-            this.MAISP.Visible = false;
             // 
             // comboBox2
             // 
@@ -1116,7 +1080,6 @@
             this.QTB.Size = new System.Drawing.Size(53, 35);
             this.QTB.TabIndex = 92;
             this.QTB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QTB.Visible = false;
             // 
             // MENOSB
             // 
@@ -1128,7 +1091,6 @@
             this.MENOSB.TabIndex = 91;
             this.MENOSB.Text = "<";
             this.MENOSB.UseVisualStyleBackColor = true;
-            this.MENOSB.Visible = false;
             // 
             // MAISB
             // 
@@ -1140,7 +1102,6 @@
             this.MAISB.TabIndex = 90;
             this.MAISB.Text = ">";
             this.MAISB.UseVisualStyleBackColor = true;
-            this.MAISB.Visible = false;
             // 
             // DescB
             // 
@@ -1153,16 +1114,15 @@
             this.DescB.ReadOnly = true;
             this.DescB.Size = new System.Drawing.Size(197, 170);
             this.DescB.TabIndex = 89;
-            this.DescB.Visible = false;
             // 
             // TitleB
             // 
-            this.TitleB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleB.Location = new System.Drawing.Point(342, 1712);
             this.TitleB.Name = "TitleB";
             this.TitleB.Size = new System.Drawing.Size(198, 31);
             this.TitleB.TabIndex = 88;
-            this.TitleB.Visible = false;
+            this.TitleB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox11
             // 
@@ -1171,7 +1131,6 @@
             this.pictureBox11.Size = new System.Drawing.Size(204, 204);
             this.pictureBox11.TabIndex = 87;
             this.pictureBox11.TabStop = false;
-            this.pictureBox11.Visible = false;
             // 
             // lAc5
             // 
@@ -1191,7 +1150,6 @@
             this.QTS.Size = new System.Drawing.Size(53, 35);
             this.QTS.TabIndex = 100;
             this.QTS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.QTS.Visible = false;
             // 
             // MENOSS
             // 
@@ -1203,7 +1161,6 @@
             this.MENOSS.TabIndex = 99;
             this.MENOSS.Text = "<";
             this.MENOSS.UseVisualStyleBackColor = true;
-            this.MENOSS.Visible = false;
             // 
             // MAISS
             // 
@@ -1215,7 +1172,6 @@
             this.MAISS.TabIndex = 98;
             this.MAISS.Text = ">";
             this.MAISS.UseVisualStyleBackColor = true;
-            this.MAISS.Visible = false;
             // 
             // DescS
             // 
@@ -1228,16 +1184,15 @@
             this.DescS.ReadOnly = true;
             this.DescS.Size = new System.Drawing.Size(197, 170);
             this.DescS.TabIndex = 97;
-            this.DescS.Visible = false;
             // 
             // TitleS
             // 
-            this.TitleS.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleS.Location = new System.Drawing.Point(342, 2211);
             this.TitleS.Name = "TitleS";
             this.TitleS.Size = new System.Drawing.Size(198, 31);
             this.TitleS.TabIndex = 96;
-            this.TitleS.Visible = false;
+            this.TitleS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox12
             // 
@@ -1246,7 +1201,6 @@
             this.pictureBox12.Size = new System.Drawing.Size(204, 204);
             this.pictureBox12.TabIndex = 95;
             this.pictureBox12.TabStop = false;
-            this.pictureBox12.Visible = false;
             // 
             // comboBox3
             // 
@@ -1268,7 +1222,6 @@
             this.button3.TabIndex = 101;
             this.button3.Text = "Concluir";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Visible = false;
             // 
             // button4
             // 
@@ -1280,7 +1233,6 @@
             this.button4.TabIndex = 102;
             this.button4.Text = "sai";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Visible = false;
             // 
             // button5
             // 
@@ -1292,7 +1244,6 @@
             this.button5.TabIndex = 103;
             this.button5.Text = "sai";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Visible = false;
             // 
             // label10
             // 
@@ -1302,6 +1253,11 @@
             this.label10.Size = new System.Drawing.Size(177, 20);
             this.label10.TabIndex = 104;
             this.label10.Visible = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -1524,6 +1480,7 @@
         private System.Windows.Forms.Label Pr7;
         private System.Windows.Forms.Label Pr6;
         private System.Windows.Forms.Label Pr5;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
