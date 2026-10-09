@@ -171,7 +171,77 @@ namespace Lanchonete_Other_Side
 
         private void MAIS5_Click(object sender, EventArgs e)
         {
+            QA4++;
+            QT5.Text = QA4.ToString();
+        }
 
+        private void MENOS5_Click(object sender, EventArgs e)
+        {
+            if (QA4 > 1)
+            {
+                QA4--;
+                QT5.Text = QA4.ToString();
+            }
+        }
+
+        private void MAIS6_Click(object sender, EventArgs e)
+        {
+            QA5++;
+            QT6.Text = QA5.ToString();
+        }
+
+        private void MENOS6_Click(object sender, EventArgs e)
+        {
+            if (QA5 > 1)
+            {
+                QA5--;
+                QT6.Text = QA5.ToString();
+            }
+        }
+
+        private void MAIS7_Click(object sender, EventArgs e)
+        {
+            QA6++;
+            QT7.Text = QA6.ToString();
+        }
+
+        private void MENOS7_Click(object sender, EventArgs e)
+        {
+            if (QA6 > 1)
+            {
+                QA6--;
+                QT7.Text = QA6.ToString();
+            }
+        }
+
+        private void MAIS8_Click(object sender, EventArgs e)
+        {
+            QA7++;
+            QT8.Text = QA7.ToString();
+        }
+
+        private void MENOS8_Click(object sender, EventArgs e)
+        {
+            if (QA7 > 1)
+            {
+                QA7--;
+                QT8.Text = QA7.ToString();
+            }
+        }
+
+        private void MAIS9_Click(object sender, EventArgs e)
+        {
+            QA8++;
+            QT9.Text = QA8.ToString();
+        }
+
+        private void MENOS9_Click(object sender, EventArgs e)
+        {
+            if (QA8 > 1)
+            {
+                QA8--;
+                QT9.Text = QA8.ToString();
+            }
         }
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
