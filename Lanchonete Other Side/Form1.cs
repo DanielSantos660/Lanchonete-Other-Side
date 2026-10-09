@@ -36,18 +36,142 @@ namespace Lanchonete_Other_Side
             }
         }
 
+        private void MAISP_Click(object sender, EventArgs e)
+        {
+            QP++;
+            QTP.Text = QP.ToString();
+        }
+
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            
-
+            MAISP.Visible = true; MENOSP.Visible = true ; QTP.Visible = true ;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton3.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
 
         }
 
-        private void radioButton3_Click(object sender, EventArgs e)
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-           
-        
+            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton4.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton5.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton6.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton7.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton7.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
+        }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+            QP = 1; QTP.Text = QP.ToString();
+            TitleP.Visible = true; TitleP.Text = radioButton9.Text;
+            DescP.Visible = true; DescP.Text = "Descrição";
+        }
+
+        private void MENOSP_Click(object sender, EventArgs e)
+        {
+            if (QP > 0)
+            {
+                QP--;
+                QTP.Text = QP.ToString();
+            }
+            else
+            {
+                radioButton3.Checked = false;
+                radioButton4.Checked = false;
+                radioButton5.Checked = false;
+                radioButton6.Checked = false;
+                radioButton7.Checked = false;
+                radioButton8.Checked = false;
+                radioButton9.Checked = false;
+
+                MAISP.Visible = false; MENOSP.Visible = false; QTP.Visible = false;
+                QP = 0; QTP.Text = "";
+                TitleP.Visible = false; TitleP.Text = "";
+                DescP.Visible = false; DescP.Text = "";
+            }
             
+        }
+
+        private void MAIS2_Click(object sender, EventArgs e)
+        {
+            QA1++;
+            QT2.Text = QA1.ToString();
+        }
+
+        private void MENOS2_Click(object sender, EventArgs e)
+        {
+            if (QA1 > 1)
+            {
+                QA1--;
+                QT2.Text = QA1.ToString();
+            }
+        }
+
+        private void MAIS3_Click(object sender, EventArgs e)
+        {
+            QA2++;
+            QT3.Text = QA2.ToString();
+        }
+
+        private void MENOS3_Click(object sender, EventArgs e)
+        {
+            if (QA2 > 1)
+            {
+                QA2--;
+                QT3.Text = QA2.ToString();
+            }
+        }
+
+        private void MAIS4_Click(object sender, EventArgs e)
+        {
+            QA3++;
+            QT4.Text = QA3.ToString();
+        }
+
+        private void MENOS4_Click(object sender, EventArgs e)
+        {
+            if (QA3 > 1)
+            {
+                QA3--;
+                QT4.Text = QA3.ToString();
+            }
+        }
+
+        private void MAIS5_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)

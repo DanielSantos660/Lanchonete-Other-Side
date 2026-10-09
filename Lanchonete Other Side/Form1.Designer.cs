@@ -185,7 +185,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(306, 142);
+            this.label2.Location = new System.Drawing.Point(268, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(229, 31);
             this.label2.TabIndex = 4;
@@ -193,10 +193,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(300, 176);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(225, 176);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 39);
+            this.textBox1.Size = new System.Drawing.Size(315, 39);
             this.textBox1.TabIndex = 5;
             // 
             // label5
@@ -350,6 +351,7 @@
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "X - Alien (Vegano)";
             this.radioButton9.UseVisualStyleBackColor = true;
+            this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
             // 
             // radioButton8
             // 
@@ -365,6 +367,7 @@
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "X - Alien (Vegano)";
             this.radioButton8.UseVisualStyleBackColor = true;
+            this.radioButton8.CheckedChanged += new System.EventHandler(this.radioButton8_CheckedChanged);
             // 
             // radioButton7
             // 
@@ -380,6 +383,7 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "X - Alien (Vegano)";
             this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
             // 
             // radioButton6
             // 
@@ -395,6 +399,7 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "X - Alien (Vegano)";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -410,6 +415,7 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "X - Transmission ";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -425,6 +431,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "X - Conected ";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -441,7 +448,6 @@
             this.radioButton3.Text = "X - Búrguer básico";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
-            this.radioButton3.Click += new System.EventHandler(this.radioButton3_Click);
             // 
             // pictureBox1
             // 
@@ -731,6 +737,7 @@
             this.MAIS2.TabIndex = 54;
             this.MAIS2.Text = ">";
             this.MAIS2.UseVisualStyleBackColor = true;
+            this.MAIS2.Click += new System.EventHandler(this.MAIS2_Click);
             // 
             // MENOS2
             // 
@@ -742,6 +749,7 @@
             this.MENOS2.TabIndex = 55;
             this.MENOS2.Text = "<";
             this.MENOS2.UseVisualStyleBackColor = true;
+            this.MENOS2.Click += new System.EventHandler(this.MENOS2_Click);
             // 
             // QT2
             // 
@@ -762,6 +770,7 @@
             this.MENOS3.TabIndex = 58;
             this.MENOS3.Text = "<";
             this.MENOS3.UseVisualStyleBackColor = true;
+            this.MENOS3.Click += new System.EventHandler(this.MENOS3_Click);
             // 
             // MAIS3
             // 
@@ -773,6 +782,7 @@
             this.MAIS3.TabIndex = 57;
             this.MAIS3.Text = ">";
             this.MAIS3.UseVisualStyleBackColor = true;
+            this.MAIS3.Click += new System.EventHandler(this.MAIS3_Click);
             // 
             // MENOS4
             // 
@@ -784,6 +794,7 @@
             this.MENOS4.TabIndex = 60;
             this.MENOS4.Text = "<";
             this.MENOS4.UseVisualStyleBackColor = true;
+            this.MENOS4.Click += new System.EventHandler(this.MENOS4_Click);
             // 
             // MAIS4
             // 
@@ -795,6 +806,7 @@
             this.MAIS4.TabIndex = 59;
             this.MAIS4.Text = ">";
             this.MAIS4.UseVisualStyleBackColor = true;
+            this.MAIS4.Click += new System.EventHandler(this.MAIS4_Click);
             // 
             // MENOS5
             // 
@@ -817,6 +829,7 @@
             this.MAIS5.TabIndex = 61;
             this.MAIS5.Text = ">";
             this.MAIS5.UseVisualStyleBackColor = true;
+            this.MAIS5.Click += new System.EventHandler(this.MAIS5_Click);
             // 
             // QT3
             // 
@@ -1032,6 +1045,7 @@
             this.MENOSP.TabIndex = 83;
             this.MENOSP.Text = "<";
             this.MENOSP.UseVisualStyleBackColor = true;
+            this.MENOSP.Click += new System.EventHandler(this.MENOSP_Click);
             // 
             // MAISP
             // 
@@ -1043,6 +1057,7 @@
             this.MAISP.TabIndex = 82;
             this.MAISP.Text = ">";
             this.MAISP.UseVisualStyleBackColor = true;
+            this.MAISP.Click += new System.EventHandler(this.MAISP_Click);
             // 
             // comboBox2
             // 
