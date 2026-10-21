@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,6 +14,7 @@ namespace Lanchonete_Other_Side
     public partial class Form1 : Form
     {
         int QP = 0, QB = 0, QS = 0, QA1 = 0, QA2 = 0, QA3 = 0, QA4 = 0, QA5 = 0, QA6 = 0, QA7 = 0, QA8 = 0;
+        double p1 = 0.0, p2 = 0.0, p3 = 0.0, p4 = 0.0, p5 = 0.0, p6 = 0.0, VTP = 0.0;
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
@@ -430,6 +432,17 @@ namespace Lanchonete_Other_Side
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
+           
+            Limpar();
+            radioButton3.Text = "X - Búrguer básico";
+            p1 = 20;
+            Pr1.Text = "| R$"+p1.ToString();
+
+
+        }
+
+        private void Limpar() 
+        {
             QP = 0; QB = 0; QS = 0; QA1 = 0; QA2 = 0; QA3 = 0; QA4 = 0; QA5 = 0; QA6 = 0; QA7 = 0; QA8 = 0;
 
             groupBox2.Visible = true;
@@ -454,9 +467,26 @@ namespace Lanchonete_Other_Side
             pictureBox3.Visible = true;
             pictureBox2.Visible = true;
 
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            checkBox6.Checked = false;
+            checkBox7.Checked = false;
+            checkBox8.Checked = false;
+
+            radioButton3.Checked = false;
+            radioButton4.Checked = false;
+            radioButton5.Checked = false;
+            radioButton6.Checked = false;
+            radioButton7.Checked = false;
+            radioButton8.Checked = false;
+            radioButton9.Checked = false;
+
             foreach (Control controle in this.Controls)
             {
-                if (controle is Button && (controle.Name.Contains("MAIS") || controle.Name.Contains("MENOS"))) 
+                if (controle is Button && (controle.Name.Contains("MAIS") || controle.Name.Contains("MENOS")))
                 {
                     controle.Visible = false;
                 }
@@ -472,9 +502,6 @@ namespace Lanchonete_Other_Side
                 }
 
             }
-            
-           
-
         }
     }
 }

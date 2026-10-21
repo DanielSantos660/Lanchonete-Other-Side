@@ -133,6 +133,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -153,10 +154,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(177, 175);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(133, 142);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 39);
+            this.label1.Size = new System.Drawing.Size(80, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mesa";
             // 
@@ -177,41 +177,37 @@
             "10",
             "11",
             "12"});
-            this.comboBox1.Location = new System.Drawing.Point(176, 217);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Location = new System.Drawing.Point(132, 176);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(108, 47);
+            this.comboBox1.Size = new System.Drawing.Size(82, 39);
             this.comboBox1.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(357, 175);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(268, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(290, 39);
+            this.label2.Size = new System.Drawing.Size(229, 31);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nome de exibição";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(300, 217);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Location = new System.Drawing.Point(225, 176);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(419, 47);
+            this.textBox1.Size = new System.Drawing.Size(315, 39);
             this.textBox1.TabIndex = 5;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(324, 378);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(243, 307);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(235, 39);
+            this.label5.Size = new System.Drawing.Size(187, 31);
             this.label5.TabIndex = 7;
             this.label5.Text = "Prato principal";
             // 
@@ -219,11 +215,9 @@
             // 
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Location = new System.Drawing.Point(292, 292);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(219, 237);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(313, 57);
+            this.groupBox1.Size = new System.Drawing.Size(235, 46);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             // 
@@ -234,10 +228,9 @@
             this.radioButton1.FlatAppearance.BorderSize = 2;
             this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(8, 14);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton1.Location = new System.Drawing.Point(6, 11);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(136, 33);
+            this.radioButton1.Size = new System.Drawing.Size(107, 28);
             this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Individual";
@@ -251,10 +244,9 @@
             this.radioButton2.FlatAppearance.BorderSize = 2;
             this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(175, 14);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton2.Location = new System.Drawing.Point(131, 11);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(125, 33);
+            this.radioButton2.Size = new System.Drawing.Size(99, 28);
             this.radioButton2.TabIndex = 10;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Combos";
@@ -276,11 +268,9 @@
             this.groupBox2.Controls.Add(this.radioButton5);
             this.groupBox2.Controls.Add(this.radioButton4);
             this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Location = new System.Drawing.Point(176, 438);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(132, 356);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(544, 304);
+            this.groupBox2.Size = new System.Drawing.Size(408, 247);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Visible = false;
@@ -288,70 +278,63 @@
             // Pr7
             // 
             this.Pr7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr7.Location = new System.Drawing.Point(424, 261);
-            this.Pr7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr7.Location = new System.Drawing.Point(318, 212);
             this.Pr7.Name = "Pr7";
-            this.Pr7.Size = new System.Drawing.Size(112, 38);
+            this.Pr7.Size = new System.Drawing.Size(84, 31);
             this.Pr7.TabIndex = 111;
             this.Pr7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr6
             // 
             this.Pr6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr6.Location = new System.Drawing.Point(424, 219);
-            this.Pr6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr6.Location = new System.Drawing.Point(318, 178);
             this.Pr6.Name = "Pr6";
-            this.Pr6.Size = new System.Drawing.Size(112, 38);
+            this.Pr6.Size = new System.Drawing.Size(84, 31);
             this.Pr6.TabIndex = 110;
             this.Pr6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr5
             // 
             this.Pr5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr5.Location = new System.Drawing.Point(424, 177);
-            this.Pr5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr5.Location = new System.Drawing.Point(318, 144);
             this.Pr5.Name = "Pr5";
-            this.Pr5.Size = new System.Drawing.Size(112, 38);
+            this.Pr5.Size = new System.Drawing.Size(84, 31);
             this.Pr5.TabIndex = 109;
             this.Pr5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr4
             // 
             this.Pr4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr4.Location = new System.Drawing.Point(424, 135);
-            this.Pr4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr4.Location = new System.Drawing.Point(318, 110);
             this.Pr4.Name = "Pr4";
-            this.Pr4.Size = new System.Drawing.Size(112, 38);
+            this.Pr4.Size = new System.Drawing.Size(84, 31);
             this.Pr4.TabIndex = 108;
             this.Pr4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr3
             // 
             this.Pr3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr3.Location = new System.Drawing.Point(424, 94);
-            this.Pr3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr3.Location = new System.Drawing.Point(318, 76);
             this.Pr3.Name = "Pr3";
-            this.Pr3.Size = new System.Drawing.Size(112, 38);
+            this.Pr3.Size = new System.Drawing.Size(84, 31);
             this.Pr3.TabIndex = 107;
             this.Pr3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr2
             // 
             this.Pr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr2.Location = new System.Drawing.Point(424, 52);
-            this.Pr2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr2.Location = new System.Drawing.Point(318, 42);
             this.Pr2.Name = "Pr2";
-            this.Pr2.Size = new System.Drawing.Size(112, 38);
+            this.Pr2.Size = new System.Drawing.Size(84, 31);
             this.Pr2.TabIndex = 106;
             this.Pr2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr1
             // 
             this.Pr1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr1.Location = new System.Drawing.Point(424, 10);
-            this.Pr1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Pr1.Location = new System.Drawing.Point(318, 8);
             this.Pr1.Name = "Pr1";
-            this.Pr1.Size = new System.Drawing.Size(112, 38);
+            this.Pr1.Size = new System.Drawing.Size(84, 31);
             this.Pr1.TabIndex = 105;
             this.Pr1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -362,13 +345,12 @@
             this.radioButton9.FlatAppearance.BorderSize = 2;
             this.radioButton9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.Location = new System.Drawing.Point(9, 262);
-            this.radioButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton9.Location = new System.Drawing.Point(7, 213);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(230, 33);
+            this.radioButton9.Size = new System.Drawing.Size(237, 28);
             this.radioButton9.TabIndex = 18;
             this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "X - Alien (Vegano)";
+            this.radioButton9.Text = "Fatia de Pizza (3 queijos)";
             this.radioButton9.UseVisualStyleBackColor = true;
             this.radioButton9.CheckedChanged += new System.EventHandler(this.radioButton9_CheckedChanged);
             // 
@@ -379,13 +361,12 @@
             this.radioButton8.FlatAppearance.BorderSize = 2;
             this.radioButton8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.Location = new System.Drawing.Point(8, 220);
-            this.radioButton8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton8.Location = new System.Drawing.Point(6, 179);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(230, 33);
+            this.radioButton8.Size = new System.Drawing.Size(171, 28);
             this.radioButton8.TabIndex = 17;
             this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "X - Alien (Vegano)";
+            this.radioButton8.Text = "Hot Dog espacial";
             this.radioButton8.UseVisualStyleBackColor = true;
             this.radioButton8.CheckedChanged += new System.EventHandler(this.radioButton8_CheckedChanged);
             // 
@@ -396,13 +377,12 @@
             this.radioButton7.FlatAppearance.BorderSize = 2;
             this.radioButton7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(8, 178);
-            this.radioButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton7.Location = new System.Drawing.Point(6, 145);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(230, 33);
+            this.radioButton7.Size = new System.Drawing.Size(152, 28);
             this.radioButton7.TabIndex = 16;
             this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "X - Alien (Vegano)";
+            this.radioButton7.Text = "Chicken green";
             this.radioButton7.UseVisualStyleBackColor = true;
             this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
             // 
@@ -413,13 +393,12 @@
             this.radioButton6.FlatAppearance.BorderSize = 2;
             this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(8, 137);
-            this.radioButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton6.Location = new System.Drawing.Point(6, 111);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(230, 33);
+            this.radioButton6.Size = new System.Drawing.Size(155, 28);
             this.radioButton6.TabIndex = 15;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "X - Alien (Vegano)";
+            this.radioButton6.Text = "Alien (Vegano)";
             this.radioButton6.UseVisualStyleBackColor = true;
             this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
@@ -430,13 +409,12 @@
             this.radioButton5.FlatAppearance.BorderSize = 2;
             this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(8, 95);
-            this.radioButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton5.Location = new System.Drawing.Point(6, 77);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(222, 33);
+            this.radioButton5.Size = new System.Drawing.Size(145, 28);
             this.radioButton5.TabIndex = 14;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "X - Transmission ";
+            this.radioButton5.Text = "Transmission ";
             this.radioButton5.UseVisualStyleBackColor = true;
             this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
@@ -447,13 +425,12 @@
             this.radioButton4.FlatAppearance.BorderSize = 2;
             this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(8, 53);
-            this.radioButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton4.Location = new System.Drawing.Point(6, 43);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(181, 33);
+            this.radioButton4.Size = new System.Drawing.Size(115, 28);
             this.radioButton4.TabIndex = 13;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "X - Conected ";
+            this.radioButton4.Text = "Conected ";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
@@ -464,10 +441,9 @@
             this.radioButton3.FlatAppearance.BorderSize = 2;
             this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(8, 11);
-            this.radioButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButton3.Location = new System.Drawing.Point(6, 9);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(234, 33);
+            this.radioButton3.Size = new System.Drawing.Size(186, 28);
             this.radioButton3.TabIndex = 12;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "X - Búrguer básico";
@@ -476,20 +452,18 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(176, 767);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(132, 623);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(272, 251);
+            this.pictureBox1.Size = new System.Drawing.Size(204, 204);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
             // TitleP
             // 
             this.TitleP.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleP.Location = new System.Drawing.Point(456, 767);
-            this.TitleP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TitleP.Location = new System.Drawing.Point(342, 623);
             this.TitleP.Name = "TitleP";
-            this.TitleP.Size = new System.Drawing.Size(264, 38);
+            this.TitleP.Size = new System.Drawing.Size(198, 31);
             this.TitleP.TabIndex = 13;
             this.TitleP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -498,22 +472,20 @@
             this.DescP.BackColor = System.Drawing.SystemColors.Control;
             this.DescP.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescP.Location = new System.Drawing.Point(457, 809);
-            this.DescP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DescP.Location = new System.Drawing.Point(343, 657);
             this.DescP.Multiline = true;
             this.DescP.Name = "DescP";
             this.DescP.ReadOnly = true;
-            this.DescP.Size = new System.Drawing.Size(263, 209);
+            this.DescP.Size = new System.Drawing.Size(197, 170);
             this.DescP.TabIndex = 14;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(373, 1972);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(280, 1602);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(141, 39);
+            this.label7.Size = new System.Drawing.Size(112, 31);
             this.label7.TabIndex = 15;
             this.label7.Text = "Bebidas";
             this.label7.Visible = false;
@@ -522,57 +494,51 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(284, 1125);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(213, 914);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(310, 39);
+            this.label8.Size = new System.Drawing.Size(247, 31);
             this.label8.TabIndex = 16;
             this.label8.Text = "Acompanhamentos";
             this.label8.Visible = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(107, 1184);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(80, 962);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox4.Size = new System.Drawing.Size(125, 125);
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(279, 1184);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(209, 962);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox5.Size = new System.Drawing.Size(125, 125);
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(451, 1184);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(338, 962);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox6.Size = new System.Drawing.Size(125, 125);
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(623, 1184);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(467, 962);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox7.Size = new System.Drawing.Size(125, 125);
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
             // 
             // lAc1
             // 
             this.lAc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc1.Location = new System.Drawing.Point(107, 1312);
-            this.lAc1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc1.Location = new System.Drawing.Point(80, 1066);
             this.lAc1.Name = "lAc1";
-            this.lAc1.Size = new System.Drawing.Size(167, 26);
+            this.lAc1.Size = new System.Drawing.Size(125, 21);
             this.lAc1.TabIndex = 23;
             this.lAc1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc1.Visible = false;
@@ -580,10 +546,9 @@
             // lAc2
             // 
             this.lAc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc2.Location = new System.Drawing.Point(279, 1312);
-            this.lAc2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc2.Location = new System.Drawing.Point(209, 1066);
             this.lAc2.Name = "lAc2";
-            this.lAc2.Size = new System.Drawing.Size(167, 26);
+            this.lAc2.Size = new System.Drawing.Size(125, 21);
             this.lAc2.TabIndex = 24;
             this.lAc2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc2.Visible = false;
@@ -591,10 +556,9 @@
             // lAc3
             // 
             this.lAc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc3.Location = new System.Drawing.Point(451, 1312);
-            this.lAc3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc3.Location = new System.Drawing.Point(338, 1066);
             this.lAc3.Name = "lAc3";
-            this.lAc3.Size = new System.Drawing.Size(167, 26);
+            this.lAc3.Size = new System.Drawing.Size(125, 21);
             this.lAc3.TabIndex = 25;
             this.lAc3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc3.Visible = false;
@@ -602,20 +566,18 @@
             // lAc4
             // 
             this.lAc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc4.Location = new System.Drawing.Point(623, 1312);
-            this.lAc4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc4.Location = new System.Drawing.Point(467, 1066);
             this.lAc4.Name = "lAc4";
-            this.lAc4.Size = new System.Drawing.Size(167, 26);
+            this.lAc4.Size = new System.Drawing.Size(125, 21);
             this.lAc4.TabIndex = 26;
             this.lAc4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc4.Visible = false;
             // 
             // checkBox1
             // 
-            this.checkBox1.Location = new System.Drawing.Point(181, 1374);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox1.Location = new System.Drawing.Point(136, 1116);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(17, 30);
+            this.checkBox1.Size = new System.Drawing.Size(13, 24);
             this.checkBox1.TabIndex = 35;
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -624,10 +586,9 @@
             // 
             // checkBox2
             // 
-            this.checkBox2.Location = new System.Drawing.Point(353, 1374);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox2.Location = new System.Drawing.Point(265, 1116);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(17, 30);
+            this.checkBox2.Size = new System.Drawing.Size(13, 24);
             this.checkBox2.TabIndex = 36;
             this.checkBox2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -636,10 +597,9 @@
             // 
             // checkBox3
             // 
-            this.checkBox3.Location = new System.Drawing.Point(525, 1374);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox3.Location = new System.Drawing.Point(394, 1116);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(17, 30);
+            this.checkBox3.Size = new System.Drawing.Size(13, 24);
             this.checkBox3.TabIndex = 37;
             this.checkBox3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -648,10 +608,9 @@
             // 
             // checkBox4
             // 
-            this.checkBox4.Location = new System.Drawing.Point(697, 1374);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox4.Location = new System.Drawing.Point(523, 1116);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(17, 30);
+            this.checkBox4.Size = new System.Drawing.Size(13, 24);
             this.checkBox4.TabIndex = 38;
             this.checkBox4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -662,10 +621,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(253, 31);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(190, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(366, 39);
+            this.label3.Size = new System.Drawing.Size(292, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Lanchonete Other Side";
             // 
@@ -673,20 +631,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(260, 98);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(195, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(356, 39);
+            this.label4.Size = new System.Drawing.Size(282, 31);
             this.label4.TabIndex = 6;
             this.label4.Text = "Formulário de pedidos";
             // 
             // lAc8
             // 
             this.lAc8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc8.Location = new System.Drawing.Point(623, 1551);
-            this.lAc8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc8.Location = new System.Drawing.Point(467, 1260);
             this.lAc8.Name = "lAc8";
-            this.lAc8.Size = new System.Drawing.Size(167, 26);
+            this.lAc8.Size = new System.Drawing.Size(125, 21);
             this.lAc8.TabIndex = 46;
             this.lAc8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc8.Visible = false;
@@ -694,10 +650,9 @@
             // lAc7
             // 
             this.lAc7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc7.Location = new System.Drawing.Point(451, 1551);
-            this.lAc7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc7.Location = new System.Drawing.Point(338, 1260);
             this.lAc7.Name = "lAc7";
-            this.lAc7.Size = new System.Drawing.Size(167, 26);
+            this.lAc7.Size = new System.Drawing.Size(125, 21);
             this.lAc7.TabIndex = 45;
             this.lAc7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc7.Visible = false;
@@ -705,56 +660,50 @@
             // lAc6
             // 
             this.lAc6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc6.Location = new System.Drawing.Point(279, 1551);
-            this.lAc6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc6.Location = new System.Drawing.Point(209, 1260);
             this.lAc6.Name = "lAc6";
-            this.lAc6.Size = new System.Drawing.Size(167, 26);
+            this.lAc6.Size = new System.Drawing.Size(125, 21);
             this.lAc6.TabIndex = 44;
             this.lAc6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc6.Visible = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(623, 1423);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(467, 1156);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox2.Size = new System.Drawing.Size(125, 125);
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(451, 1423);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(338, 1156);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox3.Size = new System.Drawing.Size(125, 125);
             this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Location = new System.Drawing.Point(279, 1423);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(209, 1156);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox8.Size = new System.Drawing.Size(125, 125);
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(107, 1423);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(80, 1156);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(167, 154);
+            this.pictureBox9.Size = new System.Drawing.Size(125, 125);
             this.pictureBox9.TabIndex = 39;
             this.pictureBox9.TabStop = false;
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Location = new System.Drawing.Point(176, 1660);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(132, 1349);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(272, 251);
+            this.pictureBox10.Size = new System.Drawing.Size(204, 204);
             this.pictureBox10.TabIndex = 51;
             this.pictureBox10.TabStop = false;
             // 
@@ -763,21 +712,19 @@
             this.DescAc.BackColor = System.Drawing.SystemColors.Control;
             this.DescAc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescAc.Location = new System.Drawing.Point(457, 1702);
-            this.DescAc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DescAc.Location = new System.Drawing.Point(343, 1383);
             this.DescAc.Multiline = true;
             this.DescAc.Name = "DescAc";
             this.DescAc.ReadOnly = true;
-            this.DescAc.Size = new System.Drawing.Size(263, 209);
+            this.DescAc.Size = new System.Drawing.Size(197, 170);
             this.DescAc.TabIndex = 53;
             // 
             // TitleAc
             // 
             this.TitleAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleAc.Location = new System.Drawing.Point(456, 1660);
-            this.TitleAc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TitleAc.Location = new System.Drawing.Point(342, 1349);
             this.TitleAc.Name = "TitleAc";
-            this.TitleAc.Size = new System.Drawing.Size(264, 38);
+            this.TitleAc.Size = new System.Drawing.Size(198, 31);
             this.TitleAc.TabIndex = 52;
             this.TitleAc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -785,10 +732,9 @@
             // 
             this.MAIS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS2.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS2.Location = new System.Drawing.Point(233, 1345);
-            this.MAIS2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS2.Location = new System.Drawing.Point(175, 1093);
             this.MAIS2.Name = "MAIS2";
-            this.MAIS2.Size = new System.Drawing.Size(33, 31);
+            this.MAIS2.Size = new System.Drawing.Size(25, 25);
             this.MAIS2.TabIndex = 54;
             this.MAIS2.Text = ">";
             this.MAIS2.UseVisualStyleBackColor = true;
@@ -798,10 +744,9 @@
             // 
             this.MENOS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS2.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS2.Location = new System.Drawing.Point(113, 1345);
-            this.MENOS2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS2.Location = new System.Drawing.Point(85, 1093);
             this.MENOS2.Name = "MENOS2";
-            this.MENOS2.Size = new System.Drawing.Size(33, 31);
+            this.MENOS2.Size = new System.Drawing.Size(25, 25);
             this.MENOS2.TabIndex = 55;
             this.MENOS2.Text = "<";
             this.MENOS2.UseVisualStyleBackColor = true;
@@ -810,10 +755,9 @@
             // QT2
             // 
             this.QT2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT2.Location = new System.Drawing.Point(155, 1348);
-            this.QT2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT2.Location = new System.Drawing.Point(116, 1095);
             this.QT2.Name = "QT2";
-            this.QT2.Size = new System.Drawing.Size(71, 26);
+            this.QT2.Size = new System.Drawing.Size(53, 21);
             this.QT2.TabIndex = 56;
             this.QT2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -821,10 +765,9 @@
             // 
             this.MENOS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS3.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS3.Location = new System.Drawing.Point(283, 1345);
-            this.MENOS3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS3.Location = new System.Drawing.Point(212, 1093);
             this.MENOS3.Name = "MENOS3";
-            this.MENOS3.Size = new System.Drawing.Size(33, 31);
+            this.MENOS3.Size = new System.Drawing.Size(25, 25);
             this.MENOS3.TabIndex = 58;
             this.MENOS3.Text = "<";
             this.MENOS3.UseVisualStyleBackColor = true;
@@ -834,10 +777,9 @@
             // 
             this.MAIS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS3.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS3.Location = new System.Drawing.Point(405, 1345);
-            this.MAIS3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS3.Location = new System.Drawing.Point(304, 1093);
             this.MAIS3.Name = "MAIS3";
-            this.MAIS3.Size = new System.Drawing.Size(33, 31);
+            this.MAIS3.Size = new System.Drawing.Size(25, 25);
             this.MAIS3.TabIndex = 57;
             this.MAIS3.Text = ">";
             this.MAIS3.UseVisualStyleBackColor = true;
@@ -847,10 +789,9 @@
             // 
             this.MENOS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS4.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS4.Location = new System.Drawing.Point(455, 1345);
-            this.MENOS4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS4.Location = new System.Drawing.Point(341, 1093);
             this.MENOS4.Name = "MENOS4";
-            this.MENOS4.Size = new System.Drawing.Size(33, 31);
+            this.MENOS4.Size = new System.Drawing.Size(25, 25);
             this.MENOS4.TabIndex = 60;
             this.MENOS4.Text = "<";
             this.MENOS4.UseVisualStyleBackColor = true;
@@ -860,10 +801,9 @@
             // 
             this.MAIS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS4.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS4.Location = new System.Drawing.Point(577, 1345);
-            this.MAIS4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS4.Location = new System.Drawing.Point(433, 1093);
             this.MAIS4.Name = "MAIS4";
-            this.MAIS4.Size = new System.Drawing.Size(33, 31);
+            this.MAIS4.Size = new System.Drawing.Size(25, 25);
             this.MAIS4.TabIndex = 59;
             this.MAIS4.Text = ">";
             this.MAIS4.UseVisualStyleBackColor = true;
@@ -873,10 +813,9 @@
             // 
             this.MENOS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS5.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS5.Location = new System.Drawing.Point(627, 1345);
-            this.MENOS5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS5.Location = new System.Drawing.Point(470, 1093);
             this.MENOS5.Name = "MENOS5";
-            this.MENOS5.Size = new System.Drawing.Size(33, 31);
+            this.MENOS5.Size = new System.Drawing.Size(25, 25);
             this.MENOS5.TabIndex = 62;
             this.MENOS5.Text = "<";
             this.MENOS5.UseVisualStyleBackColor = true;
@@ -886,10 +825,9 @@
             // 
             this.MAIS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS5.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS5.Location = new System.Drawing.Point(749, 1345);
-            this.MAIS5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS5.Location = new System.Drawing.Point(562, 1093);
             this.MAIS5.Name = "MAIS5";
-            this.MAIS5.Size = new System.Drawing.Size(33, 31);
+            this.MAIS5.Size = new System.Drawing.Size(25, 25);
             this.MAIS5.TabIndex = 61;
             this.MAIS5.Text = ">";
             this.MAIS5.UseVisualStyleBackColor = true;
@@ -898,60 +836,54 @@
             // QT3
             // 
             this.QT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT3.Location = new System.Drawing.Point(327, 1348);
-            this.QT3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT3.Location = new System.Drawing.Point(245, 1095);
             this.QT3.Name = "QT3";
-            this.QT3.Size = new System.Drawing.Size(71, 26);
+            this.QT3.Size = new System.Drawing.Size(53, 21);
             this.QT3.TabIndex = 63;
             this.QT3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // QT4
             // 
             this.QT4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT4.Location = new System.Drawing.Point(499, 1348);
-            this.QT4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT4.Location = new System.Drawing.Point(374, 1095);
             this.QT4.Name = "QT4";
-            this.QT4.Size = new System.Drawing.Size(71, 26);
+            this.QT4.Size = new System.Drawing.Size(53, 21);
             this.QT4.TabIndex = 64;
             this.QT4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // QT5
             // 
             this.QT5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT5.Location = new System.Drawing.Point(671, 1348);
-            this.QT5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT5.Location = new System.Drawing.Point(503, 1095);
             this.QT5.Name = "QT5";
-            this.QT5.Size = new System.Drawing.Size(71, 26);
+            this.QT5.Size = new System.Drawing.Size(53, 21);
             this.QT5.TabIndex = 65;
             this.QT5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // QT9
             // 
             this.QT9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT9.Location = new System.Drawing.Point(671, 1586);
-            this.QT9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT9.Location = new System.Drawing.Point(503, 1289);
             this.QT9.Name = "QT9";
-            this.QT9.Size = new System.Drawing.Size(71, 26);
+            this.QT9.Size = new System.Drawing.Size(53, 21);
             this.QT9.TabIndex = 81;
             this.QT9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // QT8
             // 
             this.QT8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT8.Location = new System.Drawing.Point(499, 1586);
-            this.QT8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT8.Location = new System.Drawing.Point(374, 1289);
             this.QT8.Name = "QT8";
-            this.QT8.Size = new System.Drawing.Size(71, 26);
+            this.QT8.Size = new System.Drawing.Size(53, 21);
             this.QT8.TabIndex = 80;
             this.QT8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // QT7
             // 
             this.QT7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT7.Location = new System.Drawing.Point(327, 1586);
-            this.QT7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT7.Location = new System.Drawing.Point(245, 1289);
             this.QT7.Name = "QT7";
-            this.QT7.Size = new System.Drawing.Size(71, 26);
+            this.QT7.Size = new System.Drawing.Size(53, 21);
             this.QT7.TabIndex = 79;
             this.QT7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -959,10 +891,9 @@
             // 
             this.MENOS9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS9.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS9.Location = new System.Drawing.Point(627, 1584);
-            this.MENOS9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS9.Location = new System.Drawing.Point(470, 1287);
             this.MENOS9.Name = "MENOS9";
-            this.MENOS9.Size = new System.Drawing.Size(33, 31);
+            this.MENOS9.Size = new System.Drawing.Size(25, 25);
             this.MENOS9.TabIndex = 78;
             this.MENOS9.Text = "<";
             this.MENOS9.UseVisualStyleBackColor = true;
@@ -972,10 +903,9 @@
             // 
             this.MAIS9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS9.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS9.Location = new System.Drawing.Point(749, 1584);
-            this.MAIS9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS9.Location = new System.Drawing.Point(562, 1287);
             this.MAIS9.Name = "MAIS9";
-            this.MAIS9.Size = new System.Drawing.Size(33, 31);
+            this.MAIS9.Size = new System.Drawing.Size(25, 25);
             this.MAIS9.TabIndex = 77;
             this.MAIS9.Text = ">";
             this.MAIS9.UseVisualStyleBackColor = true;
@@ -985,10 +915,9 @@
             // 
             this.MENOS8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS8.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS8.Location = new System.Drawing.Point(455, 1584);
-            this.MENOS8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS8.Location = new System.Drawing.Point(341, 1287);
             this.MENOS8.Name = "MENOS8";
-            this.MENOS8.Size = new System.Drawing.Size(33, 31);
+            this.MENOS8.Size = new System.Drawing.Size(25, 25);
             this.MENOS8.TabIndex = 76;
             this.MENOS8.Text = "<";
             this.MENOS8.UseVisualStyleBackColor = true;
@@ -998,10 +927,9 @@
             // 
             this.MAIS8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS8.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS8.Location = new System.Drawing.Point(577, 1584);
-            this.MAIS8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS8.Location = new System.Drawing.Point(433, 1287);
             this.MAIS8.Name = "MAIS8";
-            this.MAIS8.Size = new System.Drawing.Size(33, 31);
+            this.MAIS8.Size = new System.Drawing.Size(25, 25);
             this.MAIS8.TabIndex = 75;
             this.MAIS8.Text = ">";
             this.MAIS8.UseVisualStyleBackColor = true;
@@ -1011,10 +939,9 @@
             // 
             this.MENOS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS7.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS7.Location = new System.Drawing.Point(283, 1584);
-            this.MENOS7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS7.Location = new System.Drawing.Point(212, 1287);
             this.MENOS7.Name = "MENOS7";
-            this.MENOS7.Size = new System.Drawing.Size(33, 31);
+            this.MENOS7.Size = new System.Drawing.Size(25, 25);
             this.MENOS7.TabIndex = 74;
             this.MENOS7.Text = "<";
             this.MENOS7.UseVisualStyleBackColor = true;
@@ -1024,10 +951,9 @@
             // 
             this.MAIS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS7.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS7.Location = new System.Drawing.Point(405, 1584);
-            this.MAIS7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS7.Location = new System.Drawing.Point(304, 1287);
             this.MAIS7.Name = "MAIS7";
-            this.MAIS7.Size = new System.Drawing.Size(33, 31);
+            this.MAIS7.Size = new System.Drawing.Size(25, 25);
             this.MAIS7.TabIndex = 73;
             this.MAIS7.Text = ">";
             this.MAIS7.UseVisualStyleBackColor = true;
@@ -1036,10 +962,9 @@
             // QT6
             // 
             this.QT6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QT6.Location = new System.Drawing.Point(155, 1586);
-            this.QT6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QT6.Location = new System.Drawing.Point(116, 1289);
             this.QT6.Name = "QT6";
-            this.QT6.Size = new System.Drawing.Size(71, 26);
+            this.QT6.Size = new System.Drawing.Size(53, 21);
             this.QT6.TabIndex = 72;
             this.QT6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1047,10 +972,9 @@
             // 
             this.MENOS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS6.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOS6.Location = new System.Drawing.Point(113, 1584);
-            this.MENOS6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOS6.Location = new System.Drawing.Point(85, 1287);
             this.MENOS6.Name = "MENOS6";
-            this.MENOS6.Size = new System.Drawing.Size(33, 31);
+            this.MENOS6.Size = new System.Drawing.Size(25, 25);
             this.MENOS6.TabIndex = 71;
             this.MENOS6.Text = "<";
             this.MENOS6.UseVisualStyleBackColor = true;
@@ -1060,10 +984,9 @@
             // 
             this.MAIS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS6.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAIS6.Location = new System.Drawing.Point(233, 1584);
-            this.MAIS6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAIS6.Location = new System.Drawing.Point(175, 1287);
             this.MAIS6.Name = "MAIS6";
-            this.MAIS6.Size = new System.Drawing.Size(33, 31);
+            this.MAIS6.Size = new System.Drawing.Size(25, 25);
             this.MAIS6.TabIndex = 70;
             this.MAIS6.Text = ">";
             this.MAIS6.UseVisualStyleBackColor = true;
@@ -1071,10 +994,9 @@
             // 
             // checkBox5
             // 
-            this.checkBox5.Location = new System.Drawing.Point(697, 1612);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox5.Location = new System.Drawing.Point(523, 1310);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(17, 30);
+            this.checkBox5.Size = new System.Drawing.Size(13, 24);
             this.checkBox5.TabIndex = 69;
             this.checkBox5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -1083,10 +1005,9 @@
             // 
             // checkBox6
             // 
-            this.checkBox6.Location = new System.Drawing.Point(525, 1612);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox6.Location = new System.Drawing.Point(394, 1310);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(17, 30);
+            this.checkBox6.Size = new System.Drawing.Size(13, 24);
             this.checkBox6.TabIndex = 68;
             this.checkBox6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox6.UseVisualStyleBackColor = true;
@@ -1095,10 +1016,9 @@
             // 
             // checkBox7
             // 
-            this.checkBox7.Location = new System.Drawing.Point(353, 1612);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox7.Location = new System.Drawing.Point(265, 1310);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(17, 30);
+            this.checkBox7.Size = new System.Drawing.Size(13, 24);
             this.checkBox7.TabIndex = 67;
             this.checkBox7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox7.UseVisualStyleBackColor = true;
@@ -1107,10 +1027,9 @@
             // 
             // checkBox8
             // 
-            this.checkBox8.Location = new System.Drawing.Point(181, 1612);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBox8.Location = new System.Drawing.Point(136, 1310);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(17, 30);
+            this.checkBox8.Size = new System.Drawing.Size(13, 24);
             this.checkBox8.TabIndex = 66;
             this.checkBox8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.checkBox8.UseVisualStyleBackColor = true;
@@ -1120,10 +1039,9 @@
             // QTP
             // 
             this.QTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QTP.Location = new System.Drawing.Point(277, 1025);
-            this.QTP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QTP.Location = new System.Drawing.Point(208, 833);
             this.QTP.Name = "QTP";
-            this.QTP.Size = new System.Drawing.Size(71, 43);
+            this.QTP.Size = new System.Drawing.Size(53, 35);
             this.QTP.TabIndex = 84;
             this.QTP.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1131,10 +1049,9 @@
             // 
             this.MENOSP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOSP.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOSP.Location = new System.Drawing.Point(196, 1025);
-            this.MENOSP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOSP.Location = new System.Drawing.Point(147, 833);
             this.MENOSP.Name = "MENOSP";
-            this.MENOSP.Size = new System.Drawing.Size(47, 43);
+            this.MENOSP.Size = new System.Drawing.Size(35, 35);
             this.MENOSP.TabIndex = 83;
             this.MENOSP.Text = "<";
             this.MENOSP.UseVisualStyleBackColor = true;
@@ -1144,10 +1061,9 @@
             // 
             this.MAISP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAISP.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAISP.Location = new System.Drawing.Point(381, 1025);
-            this.MAISP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAISP.Location = new System.Drawing.Point(286, 833);
             this.MAISP.Name = "MAISP";
-            this.MAISP.Size = new System.Drawing.Size(47, 43);
+            this.MAISP.Size = new System.Drawing.Size(35, 35);
             this.MAISP.TabIndex = 82;
             this.MAISP.Text = ">";
             this.MAISP.UseVisualStyleBackColor = true;
@@ -1157,10 +1073,19 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(265, 2034);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Items.AddRange(new object[] {
+            "",
+            "Coca - Cola 300ml",
+            "Sprite - 300ml",
+            "Guaraná Antártida - 300ml",
+            "Fanta Laranja - 300ml",
+            "Fanta Uva - 300ml",
+            "Suco natural de limão - 300ml",
+            "Suco natural de maracujá - 300ml",
+            "Suco natural de laranja - 300ml"});
+            this.comboBox2.Location = new System.Drawing.Point(199, 1653);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(365, 47);
+            this.comboBox2.Size = new System.Drawing.Size(275, 39);
             this.comboBox2.TabIndex = 85;
             this.comboBox2.Visible = false;
             // 
@@ -1168,10 +1093,9 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(347, 2580);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(260, 2096);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(191, 39);
+            this.label12.Size = new System.Drawing.Size(152, 31);
             this.label12.TabIndex = 86;
             this.label12.Text = "Sobremesa";
             this.label12.Visible = false;
@@ -1179,10 +1103,9 @@
             // QTB
             // 
             this.QTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QTB.Location = new System.Drawing.Point(271, 2366);
-            this.QTB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QTB.Location = new System.Drawing.Point(203, 1922);
             this.QTB.Name = "QTB";
-            this.QTB.Size = new System.Drawing.Size(71, 43);
+            this.QTB.Size = new System.Drawing.Size(53, 35);
             this.QTB.TabIndex = 92;
             this.QTB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1190,10 +1113,9 @@
             // 
             this.MENOSB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOSB.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOSB.Location = new System.Drawing.Point(196, 2366);
-            this.MENOSB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOSB.Location = new System.Drawing.Point(147, 1922);
             this.MENOSB.Name = "MENOSB";
-            this.MENOSB.Size = new System.Drawing.Size(47, 43);
+            this.MENOSB.Size = new System.Drawing.Size(35, 35);
             this.MENOSB.TabIndex = 91;
             this.MENOSB.Text = "<";
             this.MENOSB.UseVisualStyleBackColor = true;
@@ -1202,10 +1124,9 @@
             // 
             this.MAISB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAISB.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAISB.Location = new System.Drawing.Point(381, 2366);
-            this.MAISB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAISB.Location = new System.Drawing.Point(286, 1922);
             this.MAISB.Name = "MAISB";
-            this.MAISB.Size = new System.Drawing.Size(47, 43);
+            this.MAISB.Size = new System.Drawing.Size(35, 35);
             this.MAISB.TabIndex = 90;
             this.MAISB.Text = ">";
             this.MAISB.UseVisualStyleBackColor = true;
@@ -1215,40 +1136,36 @@
             this.DescB.BackColor = System.Drawing.SystemColors.Control;
             this.DescB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescB.Location = new System.Drawing.Point(457, 2149);
-            this.DescB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DescB.Location = new System.Drawing.Point(343, 1746);
             this.DescB.Multiline = true;
             this.DescB.Name = "DescB";
             this.DescB.ReadOnly = true;
-            this.DescB.Size = new System.Drawing.Size(263, 209);
+            this.DescB.Size = new System.Drawing.Size(197, 170);
             this.DescB.TabIndex = 89;
             // 
             // TitleB
             // 
             this.TitleB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleB.Location = new System.Drawing.Point(456, 2107);
-            this.TitleB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TitleB.Location = new System.Drawing.Point(342, 1712);
             this.TitleB.Name = "TitleB";
-            this.TitleB.Size = new System.Drawing.Size(264, 38);
+            this.TitleB.Size = new System.Drawing.Size(198, 31);
             this.TitleB.TabIndex = 88;
             this.TitleB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Location = new System.Drawing.Point(176, 2107);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(132, 1712);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(272, 251);
+            this.pictureBox11.Size = new System.Drawing.Size(204, 204);
             this.pictureBox11.TabIndex = 87;
             this.pictureBox11.TabStop = false;
             // 
             // lAc5
             // 
             this.lAc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lAc5.Location = new System.Drawing.Point(107, 1551);
-            this.lAc5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lAc5.Location = new System.Drawing.Point(80, 1260);
             this.lAc5.Name = "lAc5";
-            this.lAc5.Size = new System.Drawing.Size(167, 26);
+            this.lAc5.Size = new System.Drawing.Size(125, 21);
             this.lAc5.TabIndex = 93;
             this.lAc5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc5.Visible = false;
@@ -1256,10 +1173,9 @@
             // QTS
             // 
             this.QTS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QTS.Location = new System.Drawing.Point(271, 2980);
-            this.QTS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.QTS.Location = new System.Drawing.Point(203, 2421);
             this.QTS.Name = "QTS";
-            this.QTS.Size = new System.Drawing.Size(71, 43);
+            this.QTS.Size = new System.Drawing.Size(53, 35);
             this.QTS.TabIndex = 100;
             this.QTS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -1267,10 +1183,9 @@
             // 
             this.MENOSS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOSS.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MENOSS.Location = new System.Drawing.Point(196, 2980);
-            this.MENOSS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MENOSS.Location = new System.Drawing.Point(147, 2421);
             this.MENOSS.Name = "MENOSS";
-            this.MENOSS.Size = new System.Drawing.Size(47, 43);
+            this.MENOSS.Size = new System.Drawing.Size(35, 35);
             this.MENOSS.TabIndex = 99;
             this.MENOSS.Text = "<";
             this.MENOSS.UseVisualStyleBackColor = true;
@@ -1279,10 +1194,9 @@
             // 
             this.MAISS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAISS.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.MAISS.Location = new System.Drawing.Point(381, 2980);
-            this.MAISS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MAISS.Location = new System.Drawing.Point(286, 2421);
             this.MAISS.Name = "MAISS";
-            this.MAISS.Size = new System.Drawing.Size(47, 43);
+            this.MAISS.Size = new System.Drawing.Size(35, 35);
             this.MAISS.TabIndex = 98;
             this.MAISS.Text = ">";
             this.MAISS.UseVisualStyleBackColor = true;
@@ -1292,30 +1206,27 @@
             this.DescS.BackColor = System.Drawing.SystemColors.Control;
             this.DescS.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescS.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescS.Location = new System.Drawing.Point(457, 2763);
-            this.DescS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DescS.Location = new System.Drawing.Point(343, 2245);
             this.DescS.Multiline = true;
             this.DescS.Name = "DescS";
             this.DescS.ReadOnly = true;
-            this.DescS.Size = new System.Drawing.Size(263, 209);
+            this.DescS.Size = new System.Drawing.Size(197, 170);
             this.DescS.TabIndex = 97;
             // 
             // TitleS
             // 
             this.TitleS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleS.Location = new System.Drawing.Point(456, 2721);
-            this.TitleS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.TitleS.Location = new System.Drawing.Point(342, 2211);
             this.TitleS.Name = "TitleS";
-            this.TitleS.Size = new System.Drawing.Size(264, 38);
+            this.TitleS.Size = new System.Drawing.Size(198, 31);
             this.TitleS.TabIndex = 96;
             this.TitleS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Location = new System.Drawing.Point(176, 2721);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Location = new System.Drawing.Point(132, 2211);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(272, 251);
+            this.pictureBox12.Size = new System.Drawing.Size(204, 204);
             this.pictureBox12.TabIndex = 95;
             this.pictureBox12.TabStop = false;
             // 
@@ -1323,10 +1234,18 @@
             // 
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(265, 2649);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Items.AddRange(new object[] {
+            "",
+            "Sorvete de creme",
+            "Sorvete de chocolate",
+            "Sorvete de morango",
+            "Sorvete de limão",
+            "Petit Gateau",
+            "Cocada cremosa",
+            "Pudim"});
+            this.comboBox3.Location = new System.Drawing.Point(199, 2152);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(365, 47);
+            this.comboBox3.Size = new System.Drawing.Size(275, 39);
             this.comboBox3.TabIndex = 94;
             this.comboBox3.Visible = false;
             // 
@@ -1334,34 +1253,31 @@
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.button3.Location = new System.Drawing.Point(365, 3074);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(199, 2498);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(165, 63);
+            this.button3.Size = new System.Drawing.Size(145, 51);
             this.button3.TabIndex = 101;
-            this.button3.Text = "Concluir";
+            this.button3.Text = "Adicionar ao pedido";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(812, 3074);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(609, 2498);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(68, 63);
+            this.button4.Size = new System.Drawing.Size(51, 51);
             this.button4.TabIndex = 102;
-            this.button4.Text = "sai";
+            this.button4.Text = "limpa";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
-            this.button5.Location = new System.Drawing.Point(16, 3074);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(12, 2498);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(68, 63);
+            this.button5.Size = new System.Drawing.Size(51, 51);
             this.button5.TabIndex = 103;
             this.button5.Text = "sai";
             this.button5.UseVisualStyleBackColor = true;
@@ -1369,10 +1285,9 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(541, 3129);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(406, 2542);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(236, 25);
+            this.label10.Size = new System.Drawing.Size(177, 20);
             this.label10.TabIndex = 104;
             this.label10.Visible = false;
             // 
@@ -1381,12 +1296,25 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(350, 2498);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(124, 51);
+            this.button1.TabIndex = 105;
+            this.button1.Text = "Concluir";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(941, 980);
+            this.ClientSize = new System.Drawing.Size(706, 796);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -1474,7 +1402,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Formulário de pedidos";
             this.groupBox1.ResumeLayout(false);
@@ -1604,6 +1531,7 @@
         private System.Windows.Forms.Label Pr6;
         private System.Windows.Forms.Label Pr5;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
