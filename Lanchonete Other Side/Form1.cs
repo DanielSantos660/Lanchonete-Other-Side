@@ -14,7 +14,9 @@ namespace Lanchonete_Other_Side
     public partial class Form1 : Form
     {
         int QP = 0, QB = 0, QS = 0, QA1 = 0, QA2 = 0, QA3 = 0, QA4 = 0, QA5 = 0, QA6 = 0, QA7 = 0, QA8 = 0;
-        double p1 = 0.0, p2 = 0.0, p3 = 0.0, p4 = 0.0, p5 = 0.0, p6 = 0.0, VTP = 0.0;
+        double p1 = 0.00, p2 = 0.00, p3 = 0.00, p4 = 0.00, p5 = 0.00, p6 = 0.00, p7 = 0.00, VTP = 0.00;
+        double pac1 = 0.00, pac2 = 0.00, pac3 = 0.00, pac4 = 0.00, pac5 = 0.00, pac6 = 0.00, pac7 = 0.00, pac8 = 0.00;
+        double ps = 0.00, pb = 0.00;
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
@@ -437,8 +439,32 @@ namespace Lanchonete_Other_Side
            
             Limpar();
             radioButton3.Text = "X - Búrguer básico";
-            p1 = 20;
-            Pr1.Text = "| R$"+p1.ToString();
+            p1 = 20.00;
+            Pr1.Text = "| R$" + p1.ToString();
+
+            radioButton4.Text = "Conected";
+            p2 = 30.00;
+            Pr2.Text = "| R$" + p2.ToString();
+
+            radioButton5.Text = "Transmission";
+            p3 = 25.00;
+            Pr3.Text = "| R$" + p3.ToString();
+
+            radioButton6.Text = "Alien (Vegano)";
+            p4 = 25.00;
+            Pr4.Text = "| R$" + p4.ToString();
+
+            radioButton7.Text = "Chicken Green";
+            p5 = 25.00;
+            Pr5.Text = "| R$" + p5.ToString();
+
+            radioButton8.Text = "Hot Dog Espacial";
+            p6 = 30.00;
+            Pr6.Text = "| R$" + p6.ToString();
+
+            radioButton9.Text = "Fatia de pizza (3 queijos)";
+            p7 = 25.00;
+            Pr7.Text = "| R$" + p7.ToString();
 
 
         }
