@@ -455,6 +455,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(132, 623);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(204, 204);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
@@ -503,73 +504,89 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = global::Lanchonete_Other_Side.Properties.Resources.batata;
             this.pictureBox4.Location = new System.Drawing.Point(80, 962);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = global::Lanchonete_Other_Side.Properties.Resources.batatacheddar;
             this.pictureBox5.Location = new System.Drawing.Point(209, 962);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = global::Lanchonete_Other_Side.Properties.Resources.frangofrito;
             this.pictureBox6.Location = new System.Drawing.Point(338, 962);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Image = global::Lanchonete_Other_Side.Properties.Resources.nachos;
             this.pictureBox7.Location = new System.Drawing.Point(467, 962);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
             // 
             // lAc1
             // 
-            this.lAc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc1.BackColor = System.Drawing.Color.Transparent;
+            this.lAc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc1.Location = new System.Drawing.Point(80, 1066);
             this.lAc1.Name = "lAc1";
             this.lAc1.Size = new System.Drawing.Size(125, 21);
             this.lAc1.TabIndex = 23;
+            this.lAc1.Text = "Batata Frita | R$ 15,00";
             this.lAc1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc1.Visible = false;
             // 
             // lAc2
             // 
-            this.lAc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc2.BackColor = System.Drawing.Color.Transparent;
+            this.lAc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc2.Location = new System.Drawing.Point(209, 1066);
             this.lAc2.Name = "lAc2";
             this.lAc2.Size = new System.Drawing.Size(125, 21);
             this.lAc2.TabIndex = 24;
+            this.lAc2.Text = "Cheddar Fries | R$20,00";
             this.lAc2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc2.Visible = false;
             // 
             // lAc3
             // 
-            this.lAc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc3.BackColor = System.Drawing.Color.Transparent;
+            this.lAc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc3.Location = new System.Drawing.Point(338, 1066);
             this.lAc3.Name = "lAc3";
             this.lAc3.Size = new System.Drawing.Size(125, 21);
             this.lAc3.TabIndex = 25;
+            this.lAc3.Text = "Frango Frito | R$ 15,00";
             this.lAc3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc3.Visible = false;
             // 
             // lAc4
             // 
-            this.lAc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc4.BackColor = System.Drawing.Color.Transparent;
+            this.lAc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc4.Location = new System.Drawing.Point(467, 1066);
             this.lAc4.Name = "lAc4";
             this.lAc4.Size = new System.Drawing.Size(125, 21);
             this.lAc4.TabIndex = 26;
+            this.lAc4.Text = "Nachos | R$ 25,00";
             this.lAc4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc4.Visible = false;
             // 
@@ -639,63 +656,77 @@
             // 
             // lAc8
             // 
-            this.lAc8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc8.BackColor = System.Drawing.Color.Transparent;
+            this.lAc8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc8.Location = new System.Drawing.Point(467, 1260);
             this.lAc8.Name = "lAc8";
             this.lAc8.Size = new System.Drawing.Size(125, 21);
             this.lAc8.TabIndex = 46;
+            this.lAc8.Text = "Barbecue | R$ 5,00";
             this.lAc8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc8.Visible = false;
             // 
             // lAc7
             // 
-            this.lAc7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc7.BackColor = System.Drawing.Color.Transparent;
+            this.lAc7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc7.Location = new System.Drawing.Point(338, 1260);
             this.lAc7.Name = "lAc7";
             this.lAc7.Size = new System.Drawing.Size(125, 21);
             this.lAc7.TabIndex = 45;
+            this.lAc7.Text = "Molho Vegano | R$ 5,00";
             this.lAc7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc7.Visible = false;
             // 
             // lAc6
             // 
-            this.lAc6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc6.BackColor = System.Drawing.Color.Transparent;
+            this.lAc6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc6.Location = new System.Drawing.Point(209, 1260);
             this.lAc6.Name = "lAc6";
             this.lAc6.Size = new System.Drawing.Size(125, 21);
             this.lAc6.TabIndex = 44;
+            this.lAc6.Text = "Maionese | R$ 5,00";
             this.lAc6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc6.Visible = false;
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::Lanchonete_Other_Side.Properties.Resources.barbecue;
             this.pictureBox2.Location = new System.Drawing.Point(467, 1156);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = global::Lanchonete_Other_Side.Properties.Resources.vegano;
             this.pictureBox3.Location = new System.Drawing.Point(338, 1156);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Image = global::Lanchonete_Other_Side.Properties.Resources.maionese;
             this.pictureBox8.Location = new System.Drawing.Point(209, 1156);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
             // 
             // pictureBox9
             // 
+            this.pictureBox9.Image = global::Lanchonete_Other_Side.Properties.Resources.ketchip;
             this.pictureBox9.Location = new System.Drawing.Point(80, 1156);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(125, 125);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 39;
             this.pictureBox9.TabStop = false;
             // 
@@ -704,6 +735,7 @@
             this.pictureBox10.Location = new System.Drawing.Point(132, 1349);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(204, 204);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 51;
             this.pictureBox10.TabStop = false;
             // 
@@ -712,7 +744,7 @@
             this.DescAc.BackColor = System.Drawing.SystemColors.Control;
             this.DescAc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescAc.Location = new System.Drawing.Point(343, 1383);
+            this.DescAc.Location = new System.Drawing.Point(359, 1383);
             this.DescAc.Multiline = true;
             this.DescAc.Name = "DescAc";
             this.DescAc.ReadOnly = true;
@@ -1157,16 +1189,19 @@
             this.pictureBox11.Location = new System.Drawing.Point(132, 1712);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(204, 204);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 87;
             this.pictureBox11.TabStop = false;
             // 
             // lAc5
             // 
-            this.lAc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc5.BackColor = System.Drawing.Color.Transparent;
+            this.lAc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lAc5.Location = new System.Drawing.Point(80, 1260);
             this.lAc5.Name = "lAc5";
             this.lAc5.Size = new System.Drawing.Size(125, 21);
             this.lAc5.TabIndex = 93;
+            this.lAc5.Text = "Ketchup | R$ 5,00";
             this.lAc5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lAc5.Visible = false;
             // 

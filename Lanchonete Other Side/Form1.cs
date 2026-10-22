@@ -49,7 +49,9 @@ namespace Lanchonete_Other_Side
             MAISP.Visible = true; MENOSP.Visible = true ; QTP.Visible = true ;
             QP = 1; QTP.Text = QP.ToString();
             TitleP.Visible = true; TitleP.Text = radioButton3.Text;
-            DescP.Visible = true; DescP.Text = "Descrição";
+            DescP.Visible = true; DescP.Text = "Hambúrguer artesanal básico, com pão tingido com corante natural vegano, uma fatia de queijo cheddar e gergelim.";
+            pictureBox1.Visible = true; 
+            pictureBox1.Image = Properties.Resources.basic;
 
         }
 
@@ -103,7 +105,7 @@ namespace Lanchonete_Other_Side
 
         private void MENOSP_Click(object sender, EventArgs e)
         {
-            if (QP > 0)
+            if (QP >= 0)
             {
                 QP--;
                 QTP.Text = QP.ToString();
@@ -459,6 +461,7 @@ namespace Lanchonete_Other_Side
             pictureBox10.Visible = false;
             pictureBox11.Visible = false;
 
+            pictureBox4.Visible = true;
             pictureBox5.Visible = true;
             pictureBox6.Visible = true;
             pictureBox7.Visible = true;

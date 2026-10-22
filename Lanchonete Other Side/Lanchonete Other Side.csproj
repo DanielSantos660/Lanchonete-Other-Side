@@ -74,6 +74,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +88,90 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barbecue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\batata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\batatacheddar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chicken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocolate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cocada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conected.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frangofrito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guarana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ketchip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maionese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maracuja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\morango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nachos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\petit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pudim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transmission.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vegano.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
