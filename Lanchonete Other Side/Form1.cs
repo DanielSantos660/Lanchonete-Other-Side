@@ -16,11 +16,15 @@ namespace Lanchonete_Other_Side
         //quantidade
         int QP = 0, QB = 0, QS = 0, QA1 = 0, QA2 = 0, QA3 = 0, QA4 = 0, QA5 = 0, QA6 = 0, QA7 = 0, QA8 = 0;
         //preço
-        double p1 = 0.00, p2 = 0.00, p3 = 0.00, p4 = 0.00, p5 = 0.00, p6 = 0.00, p7 = 0.00;
+        double p1 = 20.00, p2 = 30.00, p3 = 25.00, p4 = 25.00, p5 = 25.00, p6 = 30.00, p7 = 25.00;
         double pac1 = 15.00, pac2 = 20.00, pac3 = 15.00, pac4 = 25.00, pac5 = 5.00, pac6 = 5.00, pac7 = 5.00, pac8 = 5.00;
         double ps = 0.00, pb = 0.00;
         //public
         public string nome = "";
+        public int pedidos = 0;
+
+        //lista
+        List<ItemPedido> listaPedidos = new List<ItemPedido>();
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
@@ -58,73 +62,93 @@ namespace Lanchonete_Other_Side
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            MAISP.Visible = true; MENOSP.Visible = true ; QTP.Visible = true ;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = radioButton3.Text;
-            DescP.Visible = true; DescP.Text = "Hambúrguer artesanal básico, com pão tingido com corante natural vegano, uma fatia de queijo cheddar e gergelim.";
-            pictureBox1.Visible = true; 
-            pictureBox1.Image = Properties.Resources.basic;
-
+            if (radioButton3.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = radioButton3.Text;
+                DescP.Visible = true; DescP.Text = "Hambúrguer artesanal básico, com pão tingido com corante natural vegano, uma fatia de queijo cheddar e gergelim.";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.basic;
+            }
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = radioButton4.Text;
-            DescP.Visible = true; DescP.Text = "Duplo hambúrguer, com pão tingido com corante natural vegano, duas fatias de queijo, alface, tomate, maionese e gergelim.";
-            pictureBox1.Visible = true;
-            pictureBox1.Image = Properties.Resources.Conected;
+            if (radioButton4.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = radioButton4.Text;
+                DescP.Visible = true; DescP.Text = "Duplo hambúrguer, com pão tingido com corante natural vegano, duas fatias de queijo, alface, tomate, maionese e gergelim.";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.Conected;
+            }
         }
 
         private void radioButton5_CheckedChanged(object sender, EventArgs e)
         {
-            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = radioButton5.Text;
-            DescP.Visible = true; DescP.Text = "Hambúrguer artesanal, com pão tingido com corante natural vegano, uma fatia de queijo, bacon, gergelim e molho especial.";
-            pictureBox1.Visible = true;
-            pictureBox1.Image = Properties.Resources.Transmission;
+            if (radioButton5.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = radioButton5.Text;
+                DescP.Visible = true; DescP.Text = "Hambúrguer artesanal, com pão tingido com corante natural vegano, uma fatia de queijo, bacon, gergelim e molho especial.";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.Transmission;
+            }
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
-            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = radioButton6.Text;
-            DescP.Visible = true; DescP.Text = "Hambúrguer artesanal vegano, à base de proteína de soja e temperos, com pão tingido com corante natural vegano molho especial vegano e gergelim.";
-            pictureBox1.Visible = true;
-            pictureBox1.Image = Properties.Resources.alien;
+            if (radioButton6.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = radioButton6.Text;
+                DescP.Visible = true; DescP.Text = "Hambúrguer artesanal vegano, à base de proteína de soja e temperos, com pão tingido com corante natural vegano molho especial vegano e gergelim.";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.alien;
+            }
         }
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
-        {
-            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = radioButton7.Text;
-            DescP.Visible = true; DescP.Text = "Hambúrguer de frango frito e pão tingidos com corante natural vegano, uma fatia de queijo, alface, gergelim e molho especial.";
-            pictureBox1.Visible = true;
-            pictureBox1.Image = Properties.Resources.chicken;
+        { 
+            if (radioButton7.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = radioButton7.Text;
+                DescP.Visible = true; DescP.Text = "Hambúrguer de frango frito e pão tingidos com corante natural vegano, uma fatia de queijo, alface, gergelim e molho especial.";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.chicken;
+            }
         }
 
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
         {
-            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = radioButton8.Text;
-            DescP.Visible = true; DescP.Text = "Hot Dog artesanal, com pão tingido com corante natural vegano, uma salsicha, ketchup, batata palha e molho especial.";
-            pictureBox1.Visible = true;
-            pictureBox1.Image = Properties.Resources.dogao;
+            if (radioButton8.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = radioButton8.Text;
+                DescP.Visible = true; DescP.Text = "Hot Dog artesanal, com pão tingido com corante natural vegano, uma salsicha, ketchup, batata palha e molho especial.";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.dogao;
+            }
         }
 
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
         {
-            MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
-            QP = 1; QTP.Text = QP.ToString();
-            TitleP.Visible = true; TitleP.Text = "Fatia de Pizza";
-            DescP.Visible = true; DescP.Text = "Fatia da saborosa pizza três queijos (Mussarela, Parmesão e Provolone)";
-            pictureBox1.Visible = true;
-            pictureBox1.Image = Properties.Resources.pizza;
+            if (radioButton9.Checked == true)
+            {
+                MAISP.Visible = true; MENOSP.Visible = true; QTP.Visible = true;
+                QP = 1; QTP.Text = QP.ToString();
+                TitleP.Visible = true; TitleP.Text = "Fatia de Pizza";
+                DescP.Visible = true; DescP.Text = "Fatia da saborosa pizza três queijos (Mussarela, Parmesão e Provolone)";
+                pictureBox1.Visible = true;
+                pictureBox1.Image = Properties.Resources.pizza;
+            }
         }
 
         private void MENOSP_Click(object sender, EventArgs e)
@@ -298,7 +322,7 @@ namespace Lanchonete_Other_Side
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
                     break;
                 case 2:
-                    pb = 10.00;
+                    ps = 10.00;
                     pictureBox12.Visible = true; pictureBox12.Image = Properties.Resources.chocolate;
                     label9.Visible = true; label9.Text = "R$ 10,00";
                     TitleS.Visible = true; TitleS.Text = "Sorvete de chocolate";
@@ -306,7 +330,7 @@ namespace Lanchonete_Other_Side
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
                     break;
                 case 3:
-                    pb = 10.00;
+                    ps = 10.00;
                     pictureBox12.Visible = true; pictureBox12.Image = Properties.Resources.morango;
                     label9.Visible = true; label9.Text = "R$ 10,00";
                     TitleS.Visible = true; TitleS.Text = "Sorvete de morango";
@@ -314,7 +338,7 @@ namespace Lanchonete_Other_Side
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
                     break;
                 case 4:
-                    pb = 20.00;
+                    ps = 20.00;
                     pictureBox12.Visible = true; pictureBox12.Image = Properties.Resources.pizzadoce;
                     label9.Visible = true; label9.Text = "R$ 20,00";
                     TitleS.Visible = true; TitleS.Text = "Pizza doce";
@@ -322,7 +346,7 @@ namespace Lanchonete_Other_Side
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
                     break;
                 case 5:
-                    pb = 30.00;
+                    ps = 30.00;
                     pictureBox12.Visible = true; pictureBox12.Image = Properties.Resources.petit;
                     label9.Visible = true; label9.Text = "R$ 30,00";
                     TitleS.Visible = true; TitleS.Text = "Petit Gateau";
@@ -330,7 +354,7 @@ namespace Lanchonete_Other_Side
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
                     break;
                 case 6:
-                    pb = 15.00;
+                    ps = 15.00;
                     pictureBox12.Visible = true; pictureBox12.Image = Properties.Resources.cocada;
                     label9.Visible = true; label9.Text = "R$ 15,00";
                     TitleS.Visible = true; TitleS.Text = "Cocada cremosa";
@@ -338,9 +362,9 @@ namespace Lanchonete_Other_Side
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
                     break;
                 case 7:
-                    pb = 15.00;
+                    ps = 15.00;
                     pictureBox12.Visible = true; pictureBox12.Image = Properties.Resources.pudim;
-                    label9.Visible = true; label9.Text = "R$ 10,00";
+                    label9.Visible = true; label9.Text = "R$ 15,00";
                     TitleS.Visible = true; TitleS.Text = "Pudim";
                     DescS.Visible = true; DescS.Text = "Pudim de leite condensado.";
                     MAISS.Visible = true; MENOSS.Visible = true; QTS.Visible = true; QS = 1; QTS.Text = QS.ToString();
@@ -376,12 +400,200 @@ namespace Lanchonete_Other_Side
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+           Form2 form2 = new Form2(listaPedidos, pedidos, nome);
+           form2.Show();
+           this.Hide();
+
+        }
+
         private void MENOSS_Click(object sender, EventArgs e)
         {
             if (QS > 1)
             {
                 QS--;
                 QTS.Text = QS.ToString();
+            }
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == false)
+            {
+                checkBox2.Checked = true;
+            }
+            else
+            {
+                checkBox2.Checked = false;
+            }
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked == false)
+            {
+                checkBox3.Checked = true;
+            }
+            else
+            {
+                checkBox3.Checked = false;
+            }
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked == false)
+            {
+                checkBox4.Checked = true;
+            }
+            else
+            {
+                checkBox4.Checked = false;
+            }
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            if (checkBox8.Checked == false)
+            {
+                checkBox8.Checked = true;
+            }
+            else
+            {
+                checkBox8.Checked = false;
+            }
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            if (checkBox7.Checked == false)
+            {
+                checkBox7.Checked = true;
+            }
+            else
+            {
+                checkBox7.Checked = false;
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (checkBox6.Checked == false)
+            {
+                checkBox6.Checked = true;
+            }
+            else
+            {
+                checkBox6.Checked = false;
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (checkBox5.Checked == false)
+            {
+                checkBox5.Checked = true;
+            }
+            else
+            {
+                checkBox5.Checked = false;
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("Por favor, insira o nome de exibição antes de adicionar o pedido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                if (QP == 0 && QB == 0 && QS == 0 && QA1 == 0 && QA2 == 0 && QA3 == 0 && QA4 == 0 && QA5 == 0 && QA6 == 0 && QA7 == 0 && QA8 == 0)
+                {
+                    MessageBox.Show("Nenhum item selecionado para adicionar ao pedido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+
+                    label11.Visible = true;
+                    pedidos++;
+                    label11.Text = pedidos.ToString();
+                    button1.Enabled = true;
+                    if (radioButton3.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton3.Text, PrecoUnitario = p1, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (radioButton4.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton4.Text, PrecoUnitario = p2, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (radioButton5.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton5.Text, PrecoUnitario = p3, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (radioButton6.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton6.Text, PrecoUnitario = p4, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (radioButton7.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton7.Text, PrecoUnitario = p5, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (radioButton8.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton8.Text, PrecoUnitario = p6, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (radioButton9.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = radioButton9.Text, PrecoUnitario = p7, Quantidade = QP, pedido = pedidos });
+                    }
+                    if (checkBox1.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Batata Frita", PrecoUnitario = pac1, Quantidade = QA1, pedido = pedidos });
+                    }
+                    if (checkBox2.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Cheddar Fries", PrecoUnitario = pac2, Quantidade = QA2, pedido = pedidos });
+                    }
+                    if (checkBox3.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Frango Frito", PrecoUnitario = pac3, Quantidade = QA3, pedido = pedidos });
+                    }
+                    if (checkBox4.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Nachos", PrecoUnitario = pac4, Quantidade = QA4, pedido = pedidos });
+                    }
+                    if (checkBox8.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Ketchup", PrecoUnitario = pac5, Quantidade = QA5, pedido = pedidos });
+                    }
+                    if (checkBox7.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Maionese", PrecoUnitario = pac6, Quantidade = QA6, pedido = pedidos });
+                    }
+                    if (checkBox6.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Molho Especial", PrecoUnitario = pac7, Quantidade = QA7, pedido = pedidos });
+                    }
+                    if (checkBox5.Checked == true)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = "Barbecue", PrecoUnitario = pac8, Quantidade = QA8, pedido = pedidos });
+                    }
+                    if (comboBox2.SelectedIndex > 0)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = comboBox2.SelectedItem.ToString(), PrecoUnitario = pb, Quantidade = QB, pedido = pedidos });
+                    }
+                    if (comboBox3.SelectedIndex > 0)
+                    {
+                        listaPedidos.Add(new ItemPedido { Nome = comboBox3.SelectedItem.ToString(), PrecoUnitario = ps, Quantidade = QS, pedido = pedidos });
+                    }
+                    Limpar();
+
+
+                }
+
+
             }
         }
 
@@ -665,9 +877,14 @@ namespace Lanchonete_Other_Side
                 {
                     controle.Visible = false;
                 }
-                
+
+                if (controle is TextBox && controle.Name.StartsWith("Desc"))
+                {
+                    controle.Visible = false;
+                }
+
             }
-            groupBox2.Visible = false;
+            Limpar();
             timer1.Enabled = false;
         }
 
@@ -704,40 +921,7 @@ namespace Lanchonete_Other_Side
             panel1.AutoScrollMinSize = Size.Empty;
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-           
-            Limpar();
-            radioButton3.Text = "X - Búrguer básico";
-            p1 = 20.00;
-            Pr1.Text = "| R$" + p1.ToString();
-
-            radioButton4.Text = "Conected";
-            p2 = 30.00;
-            Pr2.Text = "| R$" + p2.ToString();
-
-            radioButton5.Text = "Bacon Transmission";
-            p3 = 25.00;
-            Pr3.Text = "| R$" + p3.ToString();
-
-            radioButton6.Text = "Alien (Vegano)";
-            p4 = 25.00;
-            Pr4.Text = "| R$" + p4.ToString();
-
-            radioButton7.Text = "Chicken Green";
-            p5 = 25.00;
-            Pr5.Text = "| R$" + p5.ToString();
-
-            radioButton8.Text = "Hot Dog Espacial";
-            p6 = 30.00;
-            Pr6.Text = "| R$" + p6.ToString();
-
-            radioButton9.Text = "Fatia de pizza (3 queijos)";
-            p7 = 25.00;
-            Pr7.Text = "| R$" + p7.ToString();
-
-
-        }
+        
 
         private void Limpar() 
         {
@@ -783,6 +967,24 @@ namespace Lanchonete_Other_Side
             radioButton8.Checked = false;
             radioButton9.Checked = false;
 
+            TitleP.Text = "";
+            DescP.Text = "";
+            TitleAc.Text = "";
+            DescAc.Text = "";
+
+            QTP.Text = "";
+            QT2.Text = "";
+            QT3.Text = "";
+            QT4.Text = "";
+            QT5.Text = "";
+            QT6.Text = "";
+            QT7.Text = "";
+            QT8.Text = "";
+            QT9.Text = "";
+            QTB.Text = "";
+            QTS.Text = "";
+
+
             foreach (Control controle in panel1.Controls)
             {
                 if (controle is Button && (controle.Name.Contains("MAIS") || controle.Name.Contains("MENOS")))
@@ -803,7 +1005,11 @@ namespace Lanchonete_Other_Side
                 {
                     controle.Visible = true;
                 }
+                if (controle is TextBox && controle.Name.StartsWith("Desc"))
+                {
+                    controle.Visible = false;
 
+                }
             }
         }
     }

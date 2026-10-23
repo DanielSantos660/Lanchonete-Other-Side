@@ -34,10 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.Pr7 = new System.Windows.Forms.Label();
             this.Pr6 = new System.Windows.Forms.Label();
             this.Pr5 = new System.Windows.Forms.Label();
@@ -122,8 +120,9 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
@@ -136,12 +135,10 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.label11 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -159,10 +156,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(111, 130);
+            this.label1.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Lime;
+            this.label1.Location = new System.Drawing.Point(112, 157);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
+            this.label1.Size = new System.Drawing.Size(79, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mesa";
             // 
@@ -183,7 +181,7 @@
             "10",
             "11",
             "12"});
-            this.comboBox1.Location = new System.Drawing.Point(110, 164);
+            this.comboBox1.Location = new System.Drawing.Point(110, 191);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(82, 39);
             this.comboBox1.TabIndex = 3;
@@ -191,17 +189,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(246, 130);
+            this.label2.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Lime;
+            this.label2.Location = new System.Drawing.Point(225, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(229, 31);
+            this.label2.Size = new System.Drawing.Size(271, 33);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nome de exibição";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(203, 164);
+            this.textBox1.Location = new System.Drawing.Point(203, 191);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(315, 39);
@@ -211,53 +210,13 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(221, 295);
+            this.label5.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Lime;
+            this.label5.Location = new System.Drawing.Point(187, 283);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(187, 31);
+            this.label5.Size = new System.Drawing.Size(255, 33);
             this.label5.TabIndex = 7;
             this.label5.Text = "Prato principal";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Location = new System.Drawing.Point(197, 225);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(235, 46);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.radioButton1.FlatAppearance.BorderSize = 2;
-            this.radioButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(6, 11);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(107, 28);
-            this.radioButton1.TabIndex = 9;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Individual";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.radioButton2.FlatAppearance.BorderSize = 2;
-            this.radioButton2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(131, 11);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(99, 28);
-            this.radioButton2.TabIndex = 10;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Combos";
-            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -282,67 +241,90 @@
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Location = new System.Drawing.Point(-145, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(145, 204);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 101;
+            this.pictureBox13.TabStop = false;
+            // 
             // Pr7
             // 
             this.Pr7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr7.Location = new System.Drawing.Point(318, 212);
+            this.Pr7.ForeColor = System.Drawing.Color.Lime;
+            this.Pr7.Location = new System.Drawing.Point(313, 212);
             this.Pr7.Name = "Pr7";
-            this.Pr7.Size = new System.Drawing.Size(84, 31);
+            this.Pr7.Size = new System.Drawing.Size(89, 31);
             this.Pr7.TabIndex = 111;
+            this.Pr7.Text = "|  R$ 25,00";
             this.Pr7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr6
             // 
             this.Pr6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr6.Location = new System.Drawing.Point(318, 178);
+            this.Pr6.ForeColor = System.Drawing.Color.Lime;
+            this.Pr6.Location = new System.Drawing.Point(313, 178);
             this.Pr6.Name = "Pr6";
-            this.Pr6.Size = new System.Drawing.Size(84, 31);
+            this.Pr6.Size = new System.Drawing.Size(89, 31);
             this.Pr6.TabIndex = 110;
+            this.Pr6.Text = "|  R$ 30,00";
             this.Pr6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr5
             // 
             this.Pr5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr5.Location = new System.Drawing.Point(318, 144);
+            this.Pr5.ForeColor = System.Drawing.Color.Lime;
+            this.Pr5.Location = new System.Drawing.Point(313, 144);
             this.Pr5.Name = "Pr5";
-            this.Pr5.Size = new System.Drawing.Size(84, 31);
+            this.Pr5.Size = new System.Drawing.Size(89, 31);
             this.Pr5.TabIndex = 109;
+            this.Pr5.Text = "|  R$ 25,00";
             this.Pr5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr4
             // 
             this.Pr4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr4.Location = new System.Drawing.Point(318, 110);
+            this.Pr4.ForeColor = System.Drawing.Color.Lime;
+            this.Pr4.Location = new System.Drawing.Point(313, 110);
             this.Pr4.Name = "Pr4";
-            this.Pr4.Size = new System.Drawing.Size(84, 31);
+            this.Pr4.Size = new System.Drawing.Size(89, 31);
             this.Pr4.TabIndex = 108;
+            this.Pr4.Text = "|  R$ 25,00";
             this.Pr4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr3
             // 
             this.Pr3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr3.Location = new System.Drawing.Point(318, 76);
+            this.Pr3.ForeColor = System.Drawing.Color.Lime;
+            this.Pr3.Location = new System.Drawing.Point(313, 76);
             this.Pr3.Name = "Pr3";
-            this.Pr3.Size = new System.Drawing.Size(84, 31);
+            this.Pr3.Size = new System.Drawing.Size(89, 31);
             this.Pr3.TabIndex = 107;
+            this.Pr3.Text = "|  R$ 25,00";
             this.Pr3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr2
             // 
             this.Pr2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr2.Location = new System.Drawing.Point(318, 42);
+            this.Pr2.ForeColor = System.Drawing.Color.Lime;
+            this.Pr2.Location = new System.Drawing.Point(313, 42);
             this.Pr2.Name = "Pr2";
-            this.Pr2.Size = new System.Drawing.Size(84, 31);
+            this.Pr2.Size = new System.Drawing.Size(89, 31);
             this.Pr2.TabIndex = 106;
+            this.Pr2.Text = "|  R$ 30,00";
             this.Pr2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Pr1
             // 
             this.Pr1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pr1.Location = new System.Drawing.Point(318, 8);
+            this.Pr1.ForeColor = System.Drawing.Color.Lime;
+            this.Pr1.Location = new System.Drawing.Point(313, 8);
             this.Pr1.Name = "Pr1";
-            this.Pr1.Size = new System.Drawing.Size(84, 31);
+            this.Pr1.Size = new System.Drawing.Size(89, 31);
             this.Pr1.TabIndex = 105;
+            this.Pr1.Text = "|  R$ 20,00";
             this.Pr1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // radioButton9
@@ -352,6 +334,7 @@
             this.radioButton9.FlatAppearance.BorderSize = 2;
             this.radioButton9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.ForeColor = System.Drawing.Color.Lime;
             this.radioButton9.Location = new System.Drawing.Point(7, 210);
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(237, 28);
@@ -368,6 +351,7 @@
             this.radioButton8.FlatAppearance.BorderSize = 2;
             this.radioButton8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton8.ForeColor = System.Drawing.Color.Lime;
             this.radioButton8.Location = new System.Drawing.Point(6, 179);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(171, 28);
@@ -384,6 +368,7 @@
             this.radioButton7.FlatAppearance.BorderSize = 2;
             this.radioButton7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.ForeColor = System.Drawing.Color.Lime;
             this.radioButton7.Location = new System.Drawing.Point(6, 145);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(152, 28);
@@ -400,6 +385,7 @@
             this.radioButton6.FlatAppearance.BorderSize = 2;
             this.radioButton6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.ForeColor = System.Drawing.Color.Lime;
             this.radioButton6.Location = new System.Drawing.Point(6, 111);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(155, 28);
@@ -416,6 +402,7 @@
             this.radioButton5.FlatAppearance.BorderSize = 2;
             this.radioButton5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.ForeColor = System.Drawing.Color.Lime;
             this.radioButton5.Location = new System.Drawing.Point(6, 77);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(204, 28);
@@ -432,6 +419,7 @@
             this.radioButton4.FlatAppearance.BorderSize = 2;
             this.radioButton4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.Color.Lime;
             this.radioButton4.Location = new System.Drawing.Point(6, 43);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(115, 28);
@@ -448,6 +436,7 @@
             this.radioButton3.FlatAppearance.BorderSize = 2;
             this.radioButton3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Lime;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.Color.Lime;
             this.radioButton3.Location = new System.Drawing.Point(6, 9);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(186, 28);
@@ -459,7 +448,8 @@
             // 
             // TitleP
             // 
-            this.TitleP.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.TitleP.Font = new System.Drawing.Font("Unispace", 12.25F, System.Drawing.FontStyle.Bold);
+            this.TitleP.ForeColor = System.Drawing.Color.Lime;
             this.TitleP.Location = new System.Drawing.Point(320, 611);
             this.TitleP.Name = "TitleP";
             this.TitleP.Size = new System.Drawing.Size(198, 31);
@@ -477,14 +467,16 @@
             this.DescP.ReadOnly = true;
             this.DescP.Size = new System.Drawing.Size(197, 170);
             this.DescP.TabIndex = 14;
+            this.DescP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(258, 1590);
+            this.label7.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Lime;
+            this.label7.Location = new System.Drawing.Point(251, 1590);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 31);
+            this.label7.Size = new System.Drawing.Size(127, 33);
             this.label7.TabIndex = 15;
             this.label7.Text = "Bebidas";
             this.label7.Visible = false;
@@ -504,6 +496,7 @@
             // 
             this.lAc1.BackColor = System.Drawing.Color.Transparent;
             this.lAc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc1.ForeColor = System.Drawing.Color.Lime;
             this.lAc1.Location = new System.Drawing.Point(59, 1050);
             this.lAc1.Name = "lAc1";
             this.lAc1.Size = new System.Drawing.Size(122, 21);
@@ -516,6 +509,7 @@
             // 
             this.lAc2.BackColor = System.Drawing.Color.Transparent;
             this.lAc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc2.ForeColor = System.Drawing.Color.Lime;
             this.lAc2.Location = new System.Drawing.Point(188, 1050);
             this.lAc2.Name = "lAc2";
             this.lAc2.Size = new System.Drawing.Size(122, 21);
@@ -528,6 +522,7 @@
             // 
             this.lAc3.BackColor = System.Drawing.Color.Transparent;
             this.lAc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc3.ForeColor = System.Drawing.Color.Lime;
             this.lAc3.Location = new System.Drawing.Point(318, 1050);
             this.lAc3.Name = "lAc3";
             this.lAc3.Size = new System.Drawing.Size(120, 21);
@@ -540,6 +535,7 @@
             // 
             this.lAc4.BackColor = System.Drawing.Color.Transparent;
             this.lAc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc4.ForeColor = System.Drawing.Color.Lime;
             this.lAc4.Location = new System.Drawing.Point(446, 1050);
             this.lAc4.Name = "lAc4";
             this.lAc4.Size = new System.Drawing.Size(122, 21);
@@ -595,20 +591,22 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(168, 13);
+            this.label3.Font = new System.Drawing.Font("Gamez PERSONAL USE ONLY!", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Lime;
+            this.label3.Location = new System.Drawing.Point(4, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(292, 31);
+            this.label3.Size = new System.Drawing.Size(620, 46);
             this.label3.TabIndex = 2;
             this.label3.Text = "Lanchonete Other Side";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(173, 68);
+            this.label4.Font = new System.Drawing.Font("Gamez PERSONAL USE ONLY!", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Lime;
+            this.label4.Location = new System.Drawing.Point(63, 79);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(282, 31);
+            this.label4.Size = new System.Drawing.Size(502, 39);
             this.label4.TabIndex = 6;
             this.label4.Text = "Formulário de pedidos";
             // 
@@ -616,6 +614,7 @@
             // 
             this.lAc8.BackColor = System.Drawing.Color.Transparent;
             this.lAc8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc8.ForeColor = System.Drawing.Color.Lime;
             this.lAc8.Location = new System.Drawing.Point(447, 1244);
             this.lAc8.Name = "lAc8";
             this.lAc8.Size = new System.Drawing.Size(121, 21);
@@ -628,6 +627,7 @@
             // 
             this.lAc7.BackColor = System.Drawing.Color.Transparent;
             this.lAc7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc7.ForeColor = System.Drawing.Color.Lime;
             this.lAc7.Location = new System.Drawing.Point(317, 1244);
             this.lAc7.Name = "lAc7";
             this.lAc7.Size = new System.Drawing.Size(122, 21);
@@ -640,6 +640,7 @@
             // 
             this.lAc6.BackColor = System.Drawing.Color.Transparent;
             this.lAc6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc6.ForeColor = System.Drawing.Color.Lime;
             this.lAc6.Location = new System.Drawing.Point(189, 1244);
             this.lAc6.Name = "lAc6";
             this.lAc6.Size = new System.Drawing.Size(121, 21);
@@ -659,10 +660,12 @@
             this.DescAc.ReadOnly = true;
             this.DescAc.Size = new System.Drawing.Size(197, 170);
             this.DescAc.TabIndex = 53;
+            this.DescAc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TitleAc
             // 
-            this.TitleAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleAc.Font = new System.Drawing.Font("Unispace", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleAc.ForeColor = System.Drawing.Color.Lime;
             this.TitleAc.Location = new System.Drawing.Point(336, 1337);
             this.TitleAc.Name = "TitleAc";
             this.TitleAc.Size = new System.Drawing.Size(198, 31);
@@ -671,8 +674,11 @@
             // 
             // MAIS2
             // 
+            this.MAIS2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS2.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS2.ForeColor = System.Drawing.Color.Lime;
             this.MAIS2.Location = new System.Drawing.Point(153, 1081);
             this.MAIS2.Name = "MAIS2";
             this.MAIS2.Size = new System.Drawing.Size(25, 25);
@@ -683,8 +689,11 @@
             // 
             // MENOS2
             // 
+            this.MENOS2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS2.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS2.ForeColor = System.Drawing.Color.Lime;
             this.MENOS2.Location = new System.Drawing.Point(63, 1081);
             this.MENOS2.Name = "MENOS2";
             this.MENOS2.Size = new System.Drawing.Size(25, 25);
@@ -696,6 +705,7 @@
             // QT2
             // 
             this.QT2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT2.ForeColor = System.Drawing.Color.Lime;
             this.QT2.Location = new System.Drawing.Point(94, 1083);
             this.QT2.Name = "QT2";
             this.QT2.Size = new System.Drawing.Size(53, 21);
@@ -704,8 +714,11 @@
             // 
             // MENOS3
             // 
+            this.MENOS3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS3.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS3.ForeColor = System.Drawing.Color.Lime;
             this.MENOS3.Location = new System.Drawing.Point(190, 1081);
             this.MENOS3.Name = "MENOS3";
             this.MENOS3.Size = new System.Drawing.Size(25, 25);
@@ -716,8 +729,11 @@
             // 
             // MAIS3
             // 
+            this.MAIS3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS3.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS3.ForeColor = System.Drawing.Color.Lime;
             this.MAIS3.Location = new System.Drawing.Point(282, 1081);
             this.MAIS3.Name = "MAIS3";
             this.MAIS3.Size = new System.Drawing.Size(25, 25);
@@ -728,8 +744,11 @@
             // 
             // MENOS4
             // 
+            this.MENOS4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS4.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS4.ForeColor = System.Drawing.Color.Lime;
             this.MENOS4.Location = new System.Drawing.Point(319, 1081);
             this.MENOS4.Name = "MENOS4";
             this.MENOS4.Size = new System.Drawing.Size(25, 25);
@@ -740,8 +759,11 @@
             // 
             // MAIS4
             // 
+            this.MAIS4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS4.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS4.ForeColor = System.Drawing.Color.Lime;
             this.MAIS4.Location = new System.Drawing.Point(411, 1081);
             this.MAIS4.Name = "MAIS4";
             this.MAIS4.Size = new System.Drawing.Size(25, 25);
@@ -752,8 +774,11 @@
             // 
             // MENOS5
             // 
+            this.MENOS5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS5.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS5.ForeColor = System.Drawing.Color.Lime;
             this.MENOS5.Location = new System.Drawing.Point(448, 1081);
             this.MENOS5.Name = "MENOS5";
             this.MENOS5.Size = new System.Drawing.Size(25, 25);
@@ -764,8 +789,11 @@
             // 
             // MAIS5
             // 
+            this.MAIS5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS5.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS5.ForeColor = System.Drawing.Color.Lime;
             this.MAIS5.Location = new System.Drawing.Point(540, 1081);
             this.MAIS5.Name = "MAIS5";
             this.MAIS5.Size = new System.Drawing.Size(25, 25);
@@ -777,6 +805,7 @@
             // QT3
             // 
             this.QT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT3.ForeColor = System.Drawing.Color.Lime;
             this.QT3.Location = new System.Drawing.Point(223, 1083);
             this.QT3.Name = "QT3";
             this.QT3.Size = new System.Drawing.Size(53, 21);
@@ -786,6 +815,7 @@
             // QT4
             // 
             this.QT4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT4.ForeColor = System.Drawing.Color.Lime;
             this.QT4.Location = new System.Drawing.Point(352, 1083);
             this.QT4.Name = "QT4";
             this.QT4.Size = new System.Drawing.Size(53, 21);
@@ -795,6 +825,7 @@
             // QT5
             // 
             this.QT5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT5.ForeColor = System.Drawing.Color.Lime;
             this.QT5.Location = new System.Drawing.Point(481, 1083);
             this.QT5.Name = "QT5";
             this.QT5.Size = new System.Drawing.Size(53, 21);
@@ -804,6 +835,7 @@
             // QT9
             // 
             this.QT9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT9.ForeColor = System.Drawing.Color.Lime;
             this.QT9.Location = new System.Drawing.Point(481, 1277);
             this.QT9.Name = "QT9";
             this.QT9.Size = new System.Drawing.Size(53, 21);
@@ -813,6 +845,7 @@
             // QT8
             // 
             this.QT8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT8.ForeColor = System.Drawing.Color.Lime;
             this.QT8.Location = new System.Drawing.Point(352, 1277);
             this.QT8.Name = "QT8";
             this.QT8.Size = new System.Drawing.Size(53, 21);
@@ -822,6 +855,7 @@
             // QT7
             // 
             this.QT7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT7.ForeColor = System.Drawing.Color.Lime;
             this.QT7.Location = new System.Drawing.Point(223, 1277);
             this.QT7.Name = "QT7";
             this.QT7.Size = new System.Drawing.Size(53, 21);
@@ -830,8 +864,11 @@
             // 
             // MENOS9
             // 
+            this.MENOS9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS9.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS9.ForeColor = System.Drawing.Color.Lime;
             this.MENOS9.Location = new System.Drawing.Point(448, 1275);
             this.MENOS9.Name = "MENOS9";
             this.MENOS9.Size = new System.Drawing.Size(25, 25);
@@ -842,8 +879,11 @@
             // 
             // MAIS9
             // 
+            this.MAIS9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS9.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS9.ForeColor = System.Drawing.Color.Lime;
             this.MAIS9.Location = new System.Drawing.Point(540, 1275);
             this.MAIS9.Name = "MAIS9";
             this.MAIS9.Size = new System.Drawing.Size(25, 25);
@@ -854,8 +894,11 @@
             // 
             // MENOS8
             // 
+            this.MENOS8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS8.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS8.ForeColor = System.Drawing.Color.Lime;
             this.MENOS8.Location = new System.Drawing.Point(319, 1275);
             this.MENOS8.Name = "MENOS8";
             this.MENOS8.Size = new System.Drawing.Size(25, 25);
@@ -866,8 +909,11 @@
             // 
             // MAIS8
             // 
+            this.MAIS8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS8.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS8.ForeColor = System.Drawing.Color.Lime;
             this.MAIS8.Location = new System.Drawing.Point(411, 1275);
             this.MAIS8.Name = "MAIS8";
             this.MAIS8.Size = new System.Drawing.Size(25, 25);
@@ -878,8 +924,11 @@
             // 
             // MENOS7
             // 
+            this.MENOS7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS7.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS7.ForeColor = System.Drawing.Color.Lime;
             this.MENOS7.Location = new System.Drawing.Point(190, 1275);
             this.MENOS7.Name = "MENOS7";
             this.MENOS7.Size = new System.Drawing.Size(25, 25);
@@ -890,8 +939,11 @@
             // 
             // MAIS7
             // 
+            this.MAIS7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS7.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS7.ForeColor = System.Drawing.Color.Lime;
             this.MAIS7.Location = new System.Drawing.Point(282, 1275);
             this.MAIS7.Name = "MAIS7";
             this.MAIS7.Size = new System.Drawing.Size(25, 25);
@@ -903,6 +955,7 @@
             // QT6
             // 
             this.QT6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QT6.ForeColor = System.Drawing.Color.Lime;
             this.QT6.Location = new System.Drawing.Point(94, 1277);
             this.QT6.Name = "QT6";
             this.QT6.Size = new System.Drawing.Size(53, 21);
@@ -911,8 +964,11 @@
             // 
             // MENOS6
             // 
+            this.MENOS6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOS6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOS6.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOS6.ForeColor = System.Drawing.Color.Lime;
             this.MENOS6.Location = new System.Drawing.Point(63, 1275);
             this.MENOS6.Name = "MENOS6";
             this.MENOS6.Size = new System.Drawing.Size(25, 25);
@@ -923,8 +979,11 @@
             // 
             // MAIS6
             // 
+            this.MAIS6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAIS6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAIS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAIS6.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAIS6.ForeColor = System.Drawing.Color.Lime;
             this.MAIS6.Location = new System.Drawing.Point(153, 1275);
             this.MAIS6.Name = "MAIS6";
             this.MAIS6.Size = new System.Drawing.Size(25, 25);
@@ -980,6 +1039,7 @@
             // QTP
             // 
             this.QTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QTP.ForeColor = System.Drawing.Color.Lime;
             this.QTP.Location = new System.Drawing.Point(186, 821);
             this.QTP.Name = "QTP";
             this.QTP.Size = new System.Drawing.Size(53, 35);
@@ -988,8 +1048,12 @@
             // 
             // MENOSP
             // 
+            this.MENOSP.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.MENOSP.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOSP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOSP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOSP.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOSP.ForeColor = System.Drawing.Color.Lime;
             this.MENOSP.Location = new System.Drawing.Point(125, 821);
             this.MENOSP.Name = "MENOSP";
             this.MENOSP.Size = new System.Drawing.Size(35, 35);
@@ -1000,8 +1064,12 @@
             // 
             // MAISP
             // 
+            this.MAISP.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
+            this.MAISP.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAISP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAISP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAISP.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAISP.ForeColor = System.Drawing.Color.Lime;
             this.MAISP.Location = new System.Drawing.Point(264, 821);
             this.MAISP.Name = "MAISP";
             this.MAISP.Size = new System.Drawing.Size(35, 35);
@@ -1033,10 +1101,11 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(238, 2084);
+            this.label12.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Lime;
+            this.label12.Location = new System.Drawing.Point(235, 2084);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(152, 31);
+            this.label12.Size = new System.Drawing.Size(159, 33);
             this.label12.TabIndex = 86;
             this.label12.Text = "Sobremesa";
             this.label12.Visible = false;
@@ -1044,6 +1113,7 @@
             // QTB
             // 
             this.QTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QTB.ForeColor = System.Drawing.Color.Lime;
             this.QTB.Location = new System.Drawing.Point(181, 1910);
             this.QTB.Name = "QTB";
             this.QTB.Size = new System.Drawing.Size(53, 35);
@@ -1052,8 +1122,11 @@
             // 
             // MENOSB
             // 
+            this.MENOSB.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOSB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOSB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOSB.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOSB.ForeColor = System.Drawing.Color.Lime;
             this.MENOSB.Location = new System.Drawing.Point(125, 1910);
             this.MENOSB.Name = "MENOSB";
             this.MENOSB.Size = new System.Drawing.Size(35, 35);
@@ -1064,8 +1137,11 @@
             // 
             // MAISB
             // 
+            this.MAISB.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAISB.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAISB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAISB.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAISB.ForeColor = System.Drawing.Color.Lime;
             this.MAISB.Location = new System.Drawing.Point(264, 1910);
             this.MAISB.Name = "MAISB";
             this.MAISB.Size = new System.Drawing.Size(35, 35);
@@ -1085,10 +1161,12 @@
             this.DescB.ReadOnly = true;
             this.DescB.Size = new System.Drawing.Size(197, 170);
             this.DescB.TabIndex = 89;
+            this.DescB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // TitleB
             // 
             this.TitleB.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleB.ForeColor = System.Drawing.Color.Lime;
             this.TitleB.Location = new System.Drawing.Point(320, 1700);
             this.TitleB.Name = "TitleB";
             this.TitleB.Size = new System.Drawing.Size(198, 31);
@@ -1099,6 +1177,7 @@
             // 
             this.lAc5.BackColor = System.Drawing.Color.Transparent;
             this.lAc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lAc5.ForeColor = System.Drawing.Color.Lime;
             this.lAc5.Location = new System.Drawing.Point(60, 1244);
             this.lAc5.Name = "lAc5";
             this.lAc5.Size = new System.Drawing.Size(121, 21);
@@ -1110,6 +1189,7 @@
             // QTS
             // 
             this.QTS.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QTS.ForeColor = System.Drawing.Color.Lime;
             this.QTS.Location = new System.Drawing.Point(186, 2406);
             this.QTS.Name = "QTS";
             this.QTS.Size = new System.Drawing.Size(53, 35);
@@ -1118,8 +1198,11 @@
             // 
             // MENOSS
             // 
+            this.MENOSS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MENOSS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MENOSS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MENOSS.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MENOSS.ForeColor = System.Drawing.Color.Lime;
             this.MENOSS.Location = new System.Drawing.Point(125, 2409);
             this.MENOSS.Name = "MENOSS";
             this.MENOSS.Size = new System.Drawing.Size(35, 35);
@@ -1130,8 +1213,11 @@
             // 
             // MAISS
             // 
+            this.MAISS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(0)))));
+            this.MAISS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.MAISS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MAISS.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.MAISS.ForeColor = System.Drawing.Color.Lime;
             this.MAISS.Location = new System.Drawing.Point(264, 2409);
             this.MAISS.Name = "MAISS";
             this.MAISS.Size = new System.Drawing.Size(35, 35);
@@ -1155,6 +1241,7 @@
             // TitleS
             // 
             this.TitleS.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TitleS.ForeColor = System.Drawing.Color.Lime;
             this.TitleS.Location = new System.Drawing.Point(320, 2199);
             this.TitleS.Name = "TitleS";
             this.TitleS.Size = new System.Drawing.Size(198, 31);
@@ -1189,8 +1276,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(145, 51);
             this.button3.TabIndex = 101;
-            this.button3.Text = "Adicionar ao pedido";
+            this.button3.Text = "Adicionar à compra";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -1230,10 +1318,12 @@
             this.button1.TabIndex = 105;
             this.button1.Text = "Concluir";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label6);
@@ -1247,7 +1337,6 @@
             this.panel1.Controls.Add(this.MENOSS);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.MAISS);
-            this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.DescS);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.TitleS);
@@ -1320,28 +1409,39 @@
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Location = new System.Drawing.Point(36, 12);
+            this.panel1.Location = new System.Drawing.Point(39, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(681, 712);
+            this.panel1.Size = new System.Drawing.Size(655, 712);
             this.panel1.TabIndex = 106;
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(486, 2431);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 35);
+            this.label10.TabIndex = 103;
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Lime;
+            this.label9.Location = new System.Drawing.Point(115, 2364);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(194, 35);
+            this.label9.TabIndex = 102;
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Lime;
             this.label6.Location = new System.Drawing.Point(115, 1865);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(194, 35);
             this.label6.TabIndex = 101;
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(-145, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(145, 204);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 101;
-            this.pictureBox13.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -1379,6 +1479,7 @@
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 39;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
             // 
@@ -1398,6 +1499,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox3
             // 
@@ -1408,6 +1510,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -1418,6 +1521,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox7
             // 
@@ -1428,6 +1532,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 22;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox6
             // 
@@ -1438,6 +1543,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 21;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -1448,6 +1554,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -1460,29 +1567,23 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // label9
+            // label11
             // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(115, 2364);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 35);
-            this.label9.TabIndex = 102;
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(486, 2431);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 35);
-            this.label10.TabIndex = 103;
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(454, 730);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(20, 18);
+            this.label11.TabIndex = 104;
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Lanchonete_Other_Side.Properties.Resources.fundoempe;
             this.ClientSize = new System.Drawing.Size(706, 796);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -1494,13 +1595,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulário de pedidos";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -1524,9 +1623,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
@@ -1628,6 +1724,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }
 

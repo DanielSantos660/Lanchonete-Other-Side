@@ -193,6 +193,26 @@ namespace Lanchonete_Other_Side.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundodeitado {
+            get {
+                object obj = ResourceManager.GetObject("fundodeitado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundoempe {
+            get {
+                object obj = ResourceManager.GetObject("fundoempe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap guarana {
             get {
                 object obj = ResourceManager.GetObject("guarana", resourceCulture);

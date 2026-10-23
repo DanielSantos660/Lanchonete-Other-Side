@@ -133,8 +133,8 @@
   <data name="barbecue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\barbecue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="creme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\creme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="uva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uva.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frangofrito" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frangofrito.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +142,20 @@
   <data name="limao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\limao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pizzadoce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizzadoce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="guarana" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\guarana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="uva" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\uva.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sprite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fundoempe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundoempe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\creme.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="morango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\morango.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +208,7 @@
   <data name="dogao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dogao.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pizzadoce" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizzadoce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundodeitado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundodeitado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
