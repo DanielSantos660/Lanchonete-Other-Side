@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -160,7 +161,7 @@
             this.label1.ForeColor = System.Drawing.Color.Lime;
             this.label1.Location = new System.Drawing.Point(112, 157);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 33);
+            this.label1.Size = new System.Drawing.Size(78, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mesa";
             // 
@@ -185,6 +186,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(82, 39);
             this.comboBox1.TabIndex = 3;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -193,7 +195,7 @@
             this.label2.ForeColor = System.Drawing.Color.Lime;
             this.label2.Location = new System.Drawing.Point(225, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(271, 33);
+            this.label2.Size = new System.Drawing.Size(270, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nome de exibição";
             // 
@@ -214,7 +216,7 @@
             this.label5.ForeColor = System.Drawing.Color.Lime;
             this.label5.Location = new System.Drawing.Point(187, 283);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(255, 33);
+            this.label5.Size = new System.Drawing.Size(254, 32);
             this.label5.TabIndex = 7;
             this.label5.Text = "Prato principal";
             // 
@@ -476,7 +478,7 @@
             this.label7.ForeColor = System.Drawing.Color.Lime;
             this.label7.Location = new System.Drawing.Point(251, 1590);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(127, 33);
+            this.label7.Size = new System.Drawing.Size(126, 32);
             this.label7.TabIndex = 15;
             this.label7.Text = "Bebidas";
             this.label7.Visible = false;
@@ -484,10 +486,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(191, 902);
+            this.label8.Font = new System.Drawing.Font("Unispace", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Lime;
+            this.label8.Location = new System.Drawing.Point(187, 897);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(247, 31);
+            this.label8.Size = new System.Drawing.Size(254, 32);
             this.label8.TabIndex = 16;
             this.label8.Text = "Acompanhamentos";
             this.label8.Visible = false;
@@ -1105,7 +1108,7 @@
             this.label12.ForeColor = System.Drawing.Color.Lime;
             this.label12.Location = new System.Drawing.Point(235, 2084);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(159, 33);
+            this.label12.Size = new System.Drawing.Size(158, 32);
             this.label12.TabIndex = 86;
             this.label12.Text = "Sobremesa";
             this.label12.Visible = false;
@@ -1283,13 +1286,14 @@
             // button4
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.button4.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(609, 730);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(51, 51);
             this.button4.TabIndex = 102;
-            this.button4.Text = "limpa";
+            this.button4.Text = "Limpar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -1299,8 +1303,9 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(51, 51);
             this.button5.TabIndex = 103;
-            this.button5.Text = "sai";
+            this.button5.Text = "Sair";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // timer1
             // 
@@ -1589,6 +1594,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";

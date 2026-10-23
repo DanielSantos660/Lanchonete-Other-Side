@@ -16,12 +16,14 @@ namespace Lanchonete_Other_Side
         List<ItemPedido> itensPedido = new List<ItemPedido>();
         int pedidos = 0;
         string nome = "";
+        string mesa = "";
 
-        public Form2(List<ItemPedido> itensPedido, int pedidos, string nome)
+        public Form2(List<ItemPedido> itensPedido, int pedidos, string nome, string mesa)
         {
             InitializeComponent();
             this.itensPedido = itensPedido;
             this.nome = nome;
+            this.mesa = mesa;
 
             importar_pedido();
         }
@@ -87,6 +89,7 @@ namespace Lanchonete_Other_Side
             }
 
             label13.Text = nome;
+            label9.Text = "Mesa: "+mesa;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -110,6 +113,13 @@ namespace Lanchonete_Other_Side
                 }
             }
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
         }
     }
 }

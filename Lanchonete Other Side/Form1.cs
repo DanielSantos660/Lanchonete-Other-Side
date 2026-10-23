@@ -23,6 +23,7 @@ namespace Lanchonete_Other_Side
         //public
         public string nome = "";
         public int pedidos = 0;
+        public string mesa = "";
 
         private PrivateFontCollection pfc = new PrivateFontCollection();
 
@@ -405,7 +406,7 @@ namespace Lanchonete_Other_Side
 
         private void button1_Click(object sender, EventArgs e)
         {
-           Form2 form2 = new Form2(listaPedidos, pedidos, nome);
+           Form2 form2 = new Form2(listaPedidos, pedidos, nome, mesa);
            form2.Show();
            this.Hide();
 
@@ -504,8 +505,32 @@ namespace Lanchonete_Other_Side
             }
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DialogResult resultado = MessageBox.Show( "Deseja mesmo sair?", "Confirmação",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.Yes)
+            {
+                Application.Exit(); 
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Limpar();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            mesa = comboBox1.Text;
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
+            if (comboBox1.Text == "")
+            {
+                MessageBox.Show("Por favor, escolha uma mesa antes de adicionar o pedido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             if (textBox1.Text == "")
             {
                 MessageBox.Show("Por favor, insira o nome de exibição antes de adicionar o pedido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
