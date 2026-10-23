@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -22,6 +23,8 @@ namespace Lanchonete_Other_Side
         //public
         public string nome = "";
         public int pedidos = 0;
+
+        private PrivateFontCollection pfc = new PrivateFontCollection();
 
         //lista
         List<ItemPedido> listaPedidos = new List<ItemPedido>();
@@ -210,7 +213,7 @@ namespace Lanchonete_Other_Side
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
