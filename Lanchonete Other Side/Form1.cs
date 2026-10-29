@@ -527,7 +527,7 @@ namespace Lanchonete_Other_Side
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (comboBox1.Text == "")
+            if (comboBox1.Text == "" || !int.TryParse(comboBox1.Text, out _))
             {
                 MessageBox.Show("Por favor, escolha uma mesa antes de adicionar o pedido.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -968,6 +968,8 @@ namespace Lanchonete_Other_Side
             pictureBox1.Visible = false;
             pictureBox10.Visible = false;
             pictureBox11.Visible = false;
+            pictureBox12.Visible = false;
+
 
             pictureBox4.Visible = true;
             pictureBox5.Visible = true;
@@ -977,6 +979,7 @@ namespace Lanchonete_Other_Side
             pictureBox8.Visible = true;
             pictureBox3.Visible = true;
             pictureBox2.Visible = true;
+
 
             checkBox1.Checked = false;
             checkBox2.Checked = false;
@@ -999,6 +1002,16 @@ namespace Lanchonete_Other_Side
             DescP.Text = "";
             TitleAc.Text = "";
             DescAc.Text = "";
+            TitleB.Text = "";
+            DescB.Text = "";
+            TitleS.Text = "";
+            DescS.Text = "";
+
+            comboBox2.SelectedIndex = 0;
+            comboBox3.SelectedIndex = 0;
+
+            label6.Text = "";
+            label9.Text = "";
 
             QTP.Text = "";
             QT2.Text = "";

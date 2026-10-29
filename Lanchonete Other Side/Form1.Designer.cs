@@ -161,7 +161,7 @@
             this.label1.ForeColor = System.Drawing.Color.Lime;
             this.label1.Location = new System.Drawing.Point(112, 157);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 32);
+            this.label1.Size = new System.Drawing.Size(79, 33);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mesa";
             // 
@@ -195,7 +195,7 @@
             this.label2.ForeColor = System.Drawing.Color.Lime;
             this.label2.Location = new System.Drawing.Point(225, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(270, 32);
+            this.label2.Size = new System.Drawing.Size(271, 33);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nome de exibição";
             // 
@@ -216,7 +216,7 @@
             this.label5.ForeColor = System.Drawing.Color.Lime;
             this.label5.Location = new System.Drawing.Point(187, 283);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(254, 32);
+            this.label5.Size = new System.Drawing.Size(255, 33);
             this.label5.TabIndex = 7;
             this.label5.Text = "Prato principal";
             // 
@@ -478,7 +478,7 @@
             this.label7.ForeColor = System.Drawing.Color.Lime;
             this.label7.Location = new System.Drawing.Point(251, 1590);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 32);
+            this.label7.Size = new System.Drawing.Size(127, 33);
             this.label7.TabIndex = 15;
             this.label7.Text = "Bebidas";
             this.label7.Visible = false;
@@ -490,7 +490,7 @@
             this.label8.ForeColor = System.Drawing.Color.Lime;
             this.label8.Location = new System.Drawing.Point(187, 897);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(254, 32);
+            this.label8.Size = new System.Drawing.Size(255, 33);
             this.label8.TabIndex = 16;
             this.label8.Text = "Acompanhamentos";
             this.label8.Visible = false;
@@ -1108,7 +1108,7 @@
             this.label12.ForeColor = System.Drawing.Color.Lime;
             this.label12.Location = new System.Drawing.Point(235, 2084);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(158, 32);
+            this.label12.Size = new System.Drawing.Size(159, 33);
             this.label12.TabIndex = 86;
             this.label12.Text = "Sobremesa";
             this.label12.Visible = false;
@@ -1273,38 +1273,44 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.White;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button3.Location = new System.Drawing.Point(199, 730);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(145, 51);
             this.button3.TabIndex = 101;
             this.button3.Text = "Adicionar à compra";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.White;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Arial", 7F, System.Drawing.FontStyle.Bold);
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button4.Location = new System.Drawing.Point(609, 730);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(51, 51);
             this.button4.TabIndex = 102;
             this.button4.Text = "Limpar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button5.Location = new System.Drawing.Point(12, 730);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(51, 51);
             this.button5.TabIndex = 103;
             this.button5.Text = "Sair";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // timer1
@@ -1314,15 +1320,17 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Enabled = false;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Arial", 9.55F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Location = new System.Drawing.Point(350, 730);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 51);
             this.button1.TabIndex = 105;
             this.button1.Text = "Concluir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
@@ -1574,8 +1582,9 @@
             // 
             // label11
             // 
+            this.label11.BackColor = System.Drawing.Color.White;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(454, 730);
+            this.label11.Location = new System.Drawing.Point(453, 731);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(20, 18);
             this.label11.TabIndex = 104;
@@ -1586,7 +1595,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Lanchonete_Other_Side.Properties.Resources.fundoempe;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(706, 796);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button1);
