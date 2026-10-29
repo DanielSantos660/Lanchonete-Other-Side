@@ -1089,7 +1089,7 @@
             "",
             "Coca - Cola - 300ml",
             "Sprite - 300ml",
-            "Guaraná Antártida - 300ml",
+            "Guaraná Antártica - 300ml",
             "Fanta Laranja - 300ml",
             "Fanta Uva - 300ml",
             "Suco natural de limão - 300ml",
